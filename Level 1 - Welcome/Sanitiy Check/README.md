@@ -9,7 +9,7 @@ Here is your first flag!
 
 
 # Solution
-Copy/paste the text in editor and the flag will be turned correctly.
+Copy/paste the text in an editor and the flag will be turned correctly.
 
 ## The flag
     he2024{s4nity_ch3ck_d0n3}
