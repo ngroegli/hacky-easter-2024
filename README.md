@@ -8,7 +8,7 @@ So, what are you waiting for? Dive in, explore, and let's crack some eggs! ðŸ¥šð
 CTF URL: https://www.hackyeaster.com/ 
 
 ## Challenges
-| Level 0 | Level 1 | Level 2 | Level 3 | Level 4 | Level 5 | Level 6 | Level 7 | Level 8 | Level 9 |
+| Level 0 | Level 1: Welcome | Level 2: Noob's Paradise | Level 3: Take It Easy! | Level 4 | Level 5 | Level 6 | Level 7 | Level 8 | Level 9 |
 | ------- | ------- | ------- | ------- | ------- | ------- | ------- | ------- | ------- | ------- |
 |[Teaser Challenge: Encoding Baseics](<Level 0 - Teaser/README.md>)|[Sanity Check](<Level 1 - Welcome/Sanitiy Check/README.md>)|[Egg Design](<Level 2 - Noob's Paradise/Egg Design/README.md>)|         |         |         |         |         |         |         |
 |         |         |[PEM Flag](<Level 2 - Noob's Paradise/PEM Flag/README.md>)|         |         |         |         |         |         |         |
