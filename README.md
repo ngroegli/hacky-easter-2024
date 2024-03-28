@@ -14,3 +14,4 @@ CTF URL: https://www.hackyeaster.com/
 |         |         |[PEM Flag](<Level 2 - Noob's Paradise/PEM Flag/README.md>)|         |         |         |         |         |         |         |
 |         |         |[The Duck](<Level 2 - Noob's Paradise/The Duck/README.md>)|         |         |         |         |         |         |         |
 |         |         |[Chef's Kiss](<Level 2 - Noob's Paradise/Chef's Kiss 👌/README.md>)|         |         |         |         |         |         |         |
+|         |         |         |[Street Art](<Level 3 - Level 3: Take It Easy/Street Art/README.md>)|         |         |         |         |         |         |
