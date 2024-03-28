@@ -6,3 +6,11 @@ Inside, you'll find step-by-step guides, tips, and tricks for cracking those tri
 So, what are you waiting for? Dive in, explore, and let's crack some eggs! 🥚🔓 Happy hacking!
 
 CTF URL: https://www.hackyeaster.com/ 
+
+## Challenges
+| Level 0 | Level 1 | Level 2 | Level 3 | Level 4 | Level 5 | Level 6 | Level 7 | Level 8 | Level 9 |
+| ------- | ------- | ------- | ------- | ------- | ------- | ------- | ------- | ------- | ------- |
+|[Teaser Challenge: Encoding Baseics](<Level 0 - Teaser/README.md>)|         |         |         |         |         |         |         |         |         |
+|         |         |         |         |         |         |         |         |         |         |
+|         |         |         |         |         |         |         |         |         |         |
+|         |         |         |         |         |         |         |         |         |         |
