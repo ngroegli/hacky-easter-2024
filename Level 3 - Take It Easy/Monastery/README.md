@@ -15,6 +15,7 @@ By doing a Google picture reverse search it is getting clear, that we are talkin
 
 - Wikipedia article about that: https://en.wikipedia.org/wiki/Cistercian_numerals
 - Guide about cipher: https://historysurvivalguide.com/cistercian-numerals/
+- Tool for decoding the cipher. With that we receive the following numbers: https://www.dcode.fr/cistercian-numbers
 
 
     1 letter: 3         char(3)
