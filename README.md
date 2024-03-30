@@ -12,6 +12,6 @@ CTF URL: https://www.hackyeaster.com/
 | ------- | ------- | ------- | ------- | ------- | ------- | ------- | ------- | ------- | ------- |
 |[Teaser Challenge: Encoding Baseics](<Level 0 - Teaser/README.md>)|[Sanity Check](<Level 1 - Welcome/Sanitiy Check/README.md>)|[Egg Design](<Level 2 - Noob's Paradise/Egg Design/README.md>)|[Red Door](<Level 3 - Take It Easy/Red Door/README.md>)|         |         |         |         |         |         |
 |-|-|[PEM Flag](<Level 2 - Noob's Paradise/PEM Flag/README.md>)|         |         |         |         |         |         |         |
-|-|-|[The Duck](<Level 2 - Noob's Paradise/The Duck/README.md>)|         |         |         |         |         |         |         |
+|-|-|[The Duck](<Level 2 - Noob's Paradise/The Duck/README.md>)|         |[Wise Rabbit 3](<Level 4 - Number Four/Wise Rabbit 3/README.md>)|         |         |         |         |         |
 |-|-|[Chef's Kiss](<Level 2 - Noob's Paradise/Chef's Kiss 👌/README.md>)|[Street Art](<Level 3 - Take It Easy/Street Art/README.md>)|         |         |         |         |         |         |
 |-|-|-|[Monastery](<Level 3 - Take It Easy/Monastery/README.md>)|         |         |         |         |         |         |
