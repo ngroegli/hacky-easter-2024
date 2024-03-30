@@ -8,10 +8,10 @@ So, what are you waiting for? Dive in, explore, and let's crack some eggs! 🥚�
 CTF URL: https://www.hackyeaster.com/ 
 
 ## Challenges
-| Level 0 | Level 1: Welcome | Level 2: Noob's Paradise | Level 3: Take It Easy! | Level 4 | Level 5 | Level 6 | Level 7 | Level 8 | Level 9 |
+| Level 0 | Level 1: Welcome | Level 2: Noob's Paradise | Level 3: Take It Easy! | Level 4: Number Four | Level 5 | Level 6 | Level 7 | Level 8 | Level 9 |
 | ------- | ------- | ------- | ------- | ------- | ------- | ------- | ------- | ------- | ------- |
 |[Teaser Challenge: Encoding Baseics](<Level 0 - Teaser/README.md>)|[Sanity Check](<Level 1 - Welcome/Sanitiy Check/README.md>)|[Egg Design](<Level 2 - Noob's Paradise/Egg Design/README.md>)|[Red Door](<Level 3 - Take It Easy/Red Door/README.md>)|         |         |         |         |         |         |
 |-|-|[PEM Flag](<Level 2 - Noob's Paradise/PEM Flag/README.md>)|         |         |         |         |         |         |         |
 |-|-|[The Duck](<Level 2 - Noob's Paradise/The Duck/README.md>)|         |         |         |         |         |         |         |
-|-|-|[Chef's Kiss](<Level 2 - Noob's Paradise/Chef's Kiss 👌/README.md>)|         |         |         |         |         |         |         |
-|-|-|-|[Street Art](<Level 3 - Take It Easy/Street Art/README.md>)|         |         |         |         |         |         |
+|-|-|[Chef's Kiss](<Level 2 - Noob's Paradise/Chef's Kiss 👌/README.md>)|[Street Art](<Level 3 - Take It Easy/Street Art/README.md>)|         |         |         |         |         |         |
+|-|-|-|[Monastery](<Level 3 - Take It Easy/Monastery/README.md>)|         |         |         |         |         |         |

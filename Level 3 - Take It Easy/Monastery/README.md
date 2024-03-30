@@ -15,7 +15,7 @@ By doing a Google picture reverse search it is getting clear, that we are talkin
 
 - Wikipedia article about that: https://en.wikipedia.org/wiki/Cistercian_numerals
 - Guide about cipher: https://historysurvivalguide.com/cistercian-numerals/
-- Tool for decoding the cipher. With that we receive the following numbers: https://www.dcode.fr/cistercian-numbers
+- Tool for decoding the cipher. With that we receive the following numbers (last column for DCode reproduction): https://www.dcode.fr/cistercian-numbers
 
 
     1 letter: 3         char(3)
@@ -48,11 +48,27 @@ By doing a Google picture reverse search it is getting clear, that we are talkin
 
 
 3 9058 9177 8201 6164 2533 7143 5656 7784 3452 4910 7101 2237 9901
-3 22   24   11   17   13   15   22   26   14   14   9    14   19
 
+Combining those numbers gets the following value:
 39058917782016164253371435656778434524910710122379901
 
+The two transformations took me a lot of time. I thought to reuse the same approach as ealier with "Cistercian numerals". Thanks to "spire" I received the hint, that I am finished with "Cistercian numerals".
 
+So I tried another approach. I used https://www.dcode.fr/cipher-identifier and entered the number there.
+
+This produced the following possible algorithms:
+![Cipher identifier from DCode](cipher_identifier.png)
+
+So I tried all algorithms on DCode and there outputs with CyberChef magic wand detection.
+
+With "Hexadecimal (Base 16)" I could get an output, which was detected by CyberChef magic wand:
+![Base16 Transformation](base_16.png)
+
+CyberChef then proposed "From Hex" to receive the flag:
+![CyberChef From HEX](cyber_chef_from_hex.png)
+
+
+Credits for assistance: spire
 
 ## The flag
-    he2024{}
+    he2024{monk_numberalz}
