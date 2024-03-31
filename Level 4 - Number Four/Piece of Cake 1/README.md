@@ -12,56 +12,46 @@ Here's the encoded flag:
 
 
 # Solution
-Hint from Discord: Mar 14 -> Day of Pi!
+Hint from Discord: Mar 14  - > Day of Pi!
 
-We apply for each character a ROT (ROT47). Since we know it starts with "he2024{", we might identify a pattern:
+We apply for each character a ROT (ROT47 because of special characters). Since we know it starts with "he2024{", we might identify a pattern.
 
-    i -> 93 -> h
-    i -> 90 -> e
-    3 -> 93 -> 2
-    5 -> 89 -> 0
-    ; -> 85 -> 2
-    6 -> 87 -> 4
-    ^ -> 29 | 125 -> {
-    Y
-    k
-    f
-    |
-    h
-    ~
-    j
-    8
-    a
-    d
-    g
-    f
-    7
-    v
-    e
-    5
-    u
-    u
-    i
-    w
-    3
-    7
-    w
-    f
-    l
-    a
-    j
-    }
-    x
-    `
-    9
-    r
-    b
-    g
-    j
-    |
-    7
-     -> 65 -> }
+After some try and error, I came to the conclusion that we have to calculate a rotation based on pi and the ASCII numbering.
+
+|Number of PI|Cipher Char|ASCII|Difference to Plaintext|Plaintext ASCII|Plaintext Char|
+| --- | --- | --- | --- | --- | --- |
+|3| | | | | |
+|.| | | | | |
+|1|i|105|-1|104|h|
+|4|i|105|-4|101|e|
+|1|3|51|-1|50|2|
+|5|5|53|-5|48|0|
+|9|;|59|-9|50|2|
+|2|6|54|-2|52|4|
+
+
+So by proofing that this approach seems to work, I could script a python script to apply the method to the full cipher.
+
+[solver.py](solver.py)
+
+    def solve_rot_with_ascii_and_pi():
+        numbers_after_decimal_point_of_pi = "141592653589793238462643383279502884197169399"
+        cipher = "ii35;6Ykf|h~j8adgf7ve5uuiw37wflaj}x`9rbgj|7"
+
+        index = 0
+        result = ""
+        for c in cipher:
+            plaintext_char = chr(ord(c) - int(numbers_after_decimal_point_of_pi[index]))
+            result = result + plaintext_char
+            index = index + 1
+
+        print(result) # he2024{That_wa5_a_b1t_1rrat10nal_but_0kaaay.}
+
+
+    if __name__ == "__main__":
+        solve_rot_with_ascii_and_pi()
 
 
 ## The flag
-    he2024{}
+    he2024{That_wa5_a_b1t_1rrat10nal_but_0kaaay.}
+
