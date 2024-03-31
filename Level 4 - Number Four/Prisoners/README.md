@@ -10,8 +10,16 @@ There seems to be a hidden message in there. Can you find it?
 
 
 # Solution
+By using cipher identification of DCode on https://www.dcode.fr/cipher-identifier, it will be revealed that several cipher algorithms could be possible:
 
+![Cipher identification](cipher_identification.png)
+
+After testing each, it is visible that "Trevanion Cipher" was used: https://www.dcode.fr/trevanion-cipher
+
+With "[∅]+2" the flag is revealed:
+
+![Flag](flag.png)
 
 
 ## The flag
-    he2024{}
+    he2024{wednesday}
