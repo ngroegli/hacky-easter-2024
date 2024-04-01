@@ -38,6 +38,7 @@ As we can see, if the MD5 hash matches the input, we will be redirected to "hash
 But when entering "passpass", the site still say "Wrong". So there must be something else.
 
 By further investigating the code, we can see in the HTML a javascript src parameter:
+
     <script id="check" src="text/javascript">
     </script>
 
@@ -62,12 +63,15 @@ By direct accessing this script, the true source code is revealed: http://ch.hac
     }
 
 Here we can see, that the real password is "pÐ°zzw0rD". But that is longer than 8 characters. When entering that to CyberChef, we can see that "Ð°" translates to a:
+
 ![CyberChef](cyberchef.png)
 
 When entering "pаzzw0rD", the message "Correct!" appears. So know we only have to generate the MD5 of that and access the flag directly:
+
 ![MD5 Hash Generator](md5_hash_generator.png)
 
 Now we can access the site http://ch.hackyeaster.com:2402/05693f291feed988b1f48a6d6df81614.html to get the flag:
+
 ![Flag](flag.png)
 
 ## The flag
