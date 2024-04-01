@@ -1,23 +1,16 @@
-# Challenge "Street Art"
+# Challenge "gge_deserver"
 ![Banner Image](banner.png)
 
-I found this great street art.
+?ssem siht elgnatnu ot em pleh uoy naC .desrever tog ti dna gge ym deppord I !pleH
 
-Find the name of the town!
+[gnp.galf](gnp.galf)
 
-🚩 Flag
-
-- lowercase
-- no spaces
-- example: Los Angeles -> he2024{losangeles}
-
-![streetart.jpg](streetart.jpg)
 
 # Solution
-Use Google Lens against image reveals a site https://dominikgehl.com where images of this buildings are presented. The image is from Exomusée (https://exomusee.ch) and called "Les esclaves du temps" by "M-City".
+Based from the challenge text and the file name, everything is reversed and has to be reversed back to the flag.png.
 
-It was created in "Le Locle" (Source https://exomusee.ch/m-city/).
+
 
 
 ## The flag
-    he2024{lelocle}
+    he2024{}

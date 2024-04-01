@@ -52,7 +52,7 @@ When entering a big negative number like -1000, we are pleased with an integer o
     ------------
     cat: /usr/src/planetindex/planet-55536: No such file or directory
 
-So now it is obvious, that we have to enter a that big negative number, that because of the overflow the input will be parsed as 9. This happens precisly with the input "-131063":
+So now it is obvious, that we have to enter a big negative number, which will lead to 9 because of the overflow. This happens precisly with the input "-131063":
 
     Enter the index of the planet > -131063
     ------------
