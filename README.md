@@ -11,7 +11,7 @@ CTF URL: https://www.hackyeaster.com/
 | Level 0 | Level 1: Welcome | Level 2: Noob's Paradise | Level 3: Take It Easy! | Level 4: Number Four | Level 5: Cinque ✋ | Level 6: Hexagon | Level 7 | Level 8 | Level 9 |
 | ------- | ------- | ------- | ------- | ------- | ------- | ------- | ------- | ------- | ------- |
 |[Teaser Challenge: Encoding Baseics](<Level 0 - Teaser/README.md>)|[Sanity Check](<Level 1 - Welcome/Sanitiy Check/README.md>)|[Egg Design](<Level 2 - Noob's Paradise/Egg Design/README.md>)|[Red Door](<Level 3 - Take It Easy/Red Door/README.md>)|[Piece of Cake 1](<Level 4 - Number Four/Piece of Cake 1/README.md>)|[Tricky Chicken](<Level 5 - Cinque ✋/Tricky Chicken/README.md>)|         |         |         |         |
-|-|-|[PEM Flag](<Level 2 - Noob's Paradise/PEM Flag/README.md>)|         |         |         |         |         |         |         |
+|-|-|[PEM Flag](<Level 2 - Noob's Paradise/PEM Flag/README.md>)|         |         |         |[Hatch Latch](<Level 6 - Hexagon/Hatch Latch/README.md>)|         |         |         |
 |-|-|[The Duck](<Level 2 - Noob's Paradise/The Duck/README.md>)|         |[Wise Rabbit 3](<Level 4 - Number Four/Wise Rabbit 3/README.md>)|[Planet Index](<Level 5 - Cinque ✋/Planet Index/README.md>)|         |         |         |         |
 |-|-|[Chef's Kiss](<Level 2 - Noob's Paradise/Chef's Kiss 👌/README.md>)|[Street Art](<Level 3 - Take It Easy/Street Art/README.md>)|[Prisoner](<Level 4 - Number Four/Prisoners/README.md>)|         |         |         |         |         |
 |-|-|-|[Monastery](<Level 3 - Take It Easy/Monastery/README.md>)|         |[Mr. Slapdash](<Level 5 - Cinque ✋/Mr. Slapdash/README.md>)|         |         |         |         |
