@@ -11,7 +11,7 @@ He seems to have written down the CVV numbers in some sort of encoding. Can you 
     6011 3798 6234 9679   07/27  discover  
   
 cvv: 
- 
+
     4/1/3 3/2/5 2/2/2  
     3/2/3 4/4/1 1/3/2   
     1/4/4 4/4/1 4/1/4 1/1/1  
@@ -24,8 +24,26 @@ cvv:
 
 
 # Solution
+When we assume, that the code x/y/z can be interpreted like the following:
+- x -> credit card
+- y -> number block from credid card x
+- z -> number from block y
 
+We can derive the following CVVs:
 
+    4/1/3 3/2/5 2/2/2
+    1     6     3
+
+    3/2/3 4/4/1 1/3/2 
+    8     9     7
+
+    1/4/4 4/4/1 4/1/4 1/1/1  
+    1     9     1     4
+
+    2/3/3 2/2/3 3/1/1  
+    8     3     3
+
+So concatenated the flag would be he2024{1638971914833}
 
 ## The flag
     he2024{}
