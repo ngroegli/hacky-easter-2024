@@ -10,7 +10,8 @@ He seems to have written down the CVV numbers in some sort of encoding. Can you 
     3793 568767 90378     03/28  amex  
     6011 3798 6234 9679   07/27  discover  
   
-cvv:  
+cvv: 
+ 
     4/1/3 3/2/5 2/2/2  
     3/2/3 4/4/1 1/3/2   
     1/4/4 4/4/1 4/1/4 1/1/1  
