@@ -46,4 +46,4 @@ We can derive the following CVVs:
 So concatenated the flag would be he2024{1638971914833}
 
 ## The flag
-    he2024{}
+    he2024{1638971914833}
