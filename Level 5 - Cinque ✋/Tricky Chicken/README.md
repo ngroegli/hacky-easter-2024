@@ -11,6 +11,11 @@ Note: The service is restarted every hour at x:00.
 
 # Solution
 
+When accessing the site, we are asked about a code:
+
+![Website for Code](website.png)
+
+
 
 
 ## The flag
