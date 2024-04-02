@@ -99,27 +99,81 @@ Some approaches from https://book.hacktricks.xyz/linux-hardening/privilege-escal
 
 ## Passwd
 
-[minion@a20fe5cbd930 ~]$ cat /etc/passwd
-root:x:0:0:root:/root:/bin/bash
-bin:x:1:1:bin:/bin:/sbin/nologin
-daemon:x:2:2:daemon:/sbin:/sbin/nologin
-adm:x:3:4:adm:/var/adm:/sbin/nologin
-lp:x:4:7:lp:/var/spool/lpd:/sbin/nologin
-sync:x:5:0:sync:/sbin:/bin/sync
-shutdown:x:6:0:shutdown:/sbin:/sbin/shutdown
-halt:x:7:0:halt:/sbin:/sbin/halt
-mail:x:8:12:mail:/var/spool/mail:/sbin/nologin
-operator:x:11:0:operator:/root:/sbin/nologin
-games:x:12:100:games:/usr/games:/sbin/nologin
-ftp:x:14:50:FTP User:/var/ftp:/sbin/nologin
-nobody:x:65534:65534:Kernel Overflow User:/:/sbin/nologin
-systemd-coredump:x:999:997:systemd Core Dumper:/:/sbin/nologin
-dbus:x:81:81:System message bus:/:/sbin/nologin
-tss:x:59:59:Account used for TPM access:/:/sbin/nologin
-systemd-oom:x:995:995:systemd Userspace OOM Killer:/:/usr/sbin/nologin
-sshd:x:74:74:Privilege-separated SSH:/usr/share/empty.sshd:/sbin/nologin
-minion:x:1000:1000::/home/minion:/bin/bash
-boss:x:1001:1001::/home/boss:/bin/bash
+    [minion@a20fe5cbd930 ~]$ cat /etc/passwd
+    root:x:0:0:root:/root:/bin/bash
+    bin:x:1:1:bin:/bin:/sbin/nologin
+    daemon:x:2:2:daemon:/sbin:/sbin/nologin
+    adm:x:3:4:adm:/var/adm:/sbin/nologin
+    lp:x:4:7:lp:/var/spool/lpd:/sbin/nologin
+    sync:x:5:0:sync:/sbin:/bin/sync
+    shutdown:x:6:0:shutdown:/sbin:/sbin/shutdown
+    halt:x:7:0:halt:/sbin:/sbin/halt
+    mail:x:8:12:mail:/var/spool/mail:/sbin/nologin
+    operator:x:11:0:operator:/root:/sbin/nologin
+    games:x:12:100:games:/usr/games:/sbin/nologin
+    ftp:x:14:50:FTP User:/var/ftp:/sbin/nologin
+    nobody:x:65534:65534:Kernel Overflow User:/:/sbin/nologin
+    systemd-coredump:x:999:997:systemd Core Dumper:/:/sbin/nologin
+    dbus:x:81:81:System message bus:/:/sbin/nologin
+    tss:x:59:59:Account used for TPM access:/:/sbin/nologin
+    systemd-oom:x:995:995:systemd Userspace OOM Killer:/:/usr/sbin/nologin
+    sshd:x:74:74:Privilege-separated SSH:/usr/share/empty.sshd:/sbin/nologin
+    minion:x:1000:1000::/home/minion:/bin/bash
+    boss:x:1001:1001::/home/boss:/bin/bash
+
+## Symbolic Link
+
+    [minion@f5e60f29a415 ~]$ ln -s /home/boss/lockdown.sh link
+    ln: failed to create symbolic link 'link': Permission denied
+
+## Setuid/Setgid
+
+    [minion@f5e60f29a415 ~]$ find / -perm /6000 -type f
+    find: ‘/home/boss’: Permission denied
+    /usr/sbin/pam_timestamp_check
+    /usr/sbin/userhelper
+    /usr/sbin/unix_chkpwd
+    /usr/libexec/utempter/utempter
+    /usr/libexec/openssh/ssh-keysign
+    /usr/bin/chage
+    /usr/bin/umount
+    /usr/bin/newgrp
+    /usr/bin/su
+    /usr/bin/passwd
+    /usr/bin/write
+    /usr/bin/gpasswd
+    /usr/bin/mount
+    find: ‘/usr/share/empty.sshd’: Permission denied
+    find: ‘/proc/tty/driver’: Permission denied
+    find: ‘/proc/1/task/1/fd’: Permission denied
+    find: ‘/proc/1/task/1/fdinfo’: Permission denied
+    find: ‘/proc/1/task/1/ns’: Permission denied
+    find: ‘/proc/1/fd’: Permission denied
+    find: ‘/proc/1/map_files’: Permission denied
+    find: ‘/proc/1/fdinfo’: Permission denied
+    find: ‘/proc/1/ns’: Permission denied
+    find: ‘/proc/65/task/65/fd’: Permission denied
+    find: ‘/proc/65/task/65/fdinfo’: Permission denied
+    find: ‘/proc/65/task/65/ns’: Permission denied
+    find: ‘/proc/65/fd’: Permission denied
+    find: ‘/proc/65/map_files’: Permission denied
+    find: ‘/proc/65/fdinfo’: Permission denied
+    find: ‘/proc/65/ns’: Permission denied
+    find: ‘/proc/67/task/67/fd’: Permission denied
+    find: ‘/proc/67/task/67/fdinfo’: Permission denied
+    find: ‘/proc/67/task/67/ns’: Permission denied
+    find: ‘/proc/67/fd’: Permission denied
+    find: ‘/proc/67/map_files’: Permission denied
+    find: ‘/proc/67/fdinfo’: Permission denied
+    find: ‘/proc/67/ns’: Permission denied
+    find: ‘/proc/103/task/103/fdinfo/6’: No such file or directory
+    find: ‘/proc/103/fdinfo/5’: No such file or directory
+    find: ‘/lost+found’: Permission denied
+    find: ‘/var/lib/private’: Permission denied
+    find: ‘/var/cache/ldconfig’: Permission denied
+    /opt/reset
+    find: ‘/etc/ssh/sshd_config.d’: Permission denied
+    find: ‘/root/.ssh’: Permission denied
 
 
 ## The flag
