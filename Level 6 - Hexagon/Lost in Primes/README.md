@@ -24,7 +24,7 @@ From the leaked_part.png we can see that all visible numbers are 0 or 1. Further
     download = 1 for true
     http://factordb.com/listtype.php?t=1&mindig={mindig}&perpage={perpage}&start={start}&download={download}
 
-Because of the mentioned facts, we can generate a script to consume all primes with the above URL. But we have to make sure to consume them in small steps and that we filter for values which start with mostly 0 and 1. I assume we only have 0 and 1, but to let some space I did not made the filter hard for those two values only (some error space accepted). Primes which matches the criteria will be stored in a output.txt:
+Because of the mentioned facts, we can generate a script to consume all primes with the above URL. But we have to make sure to consume them in small steps and that we filter for values which start with mostly 0 and 1. I assume we only have 0 and 1, but to left some space in my filter since we do not know for sure that only 0 and 1 exists in the number. Primes which matches the criteria will be stored in a output.txt:
 
 [consumer.py](consumer.py)
 
