@@ -14,5 +14,5 @@ CTF URL: https://www.hackyeaster.com/
 |-|-|[PEM Flag](<Level 2 - Noob's Paradise/PEM Flag/README.md>)|         |         |         |[Hatch Latch](<Level 6 - Hexagon/Hatch Latch/README.md>)|         |         |         |
 |-|-|[The Duck](<Level 2 - Noob's Paradise/The Duck/README.md>)|         |[Wise Rabbit 3](<Level 4 - Number Four/Wise Rabbit 3/README.md>)|[Planet Index](<Level 5 - Cinque ✋/Planet Index/README.md>)|         |         |         |         |
 |-|-|[Chef's Kiss](<Level 2 - Noob's Paradise/Chef's Kiss 👌/README.md>)|[Street Art](<Level 3 - Take It Easy/Street Art/README.md>)|[Prisoner](<Level 4 - Number Four/Prisoners/README.md>)|         |         |         |         |         |
-|-|-|-|[Monastery](<Level 3 - Take It Easy/Monastery/README.md>)|[Egg Buster](<Level 4 - Number Four/Egg Busters/README.md>)|[Mr. Slapdash](<Level 5 - Cinque ✋/Mr. Slapdash/README.md>)|         |         |         |         |
-|-|-|-|-|[Primetime](<Level 4 - Number Four/Primetime/README.md>)|-|-|         |         |         |
+|-|-|-|[Monastery](<Level 3 - Take It Easy/Monastery/README.md>)|[Egg Buster](<Level 4 - Number Four/Egg Busters/README.md>)|[Mr. Slapdash](<Level 5 - Cinque ✋/Mr. Slapdash/README.md>)|[Lost in Primes](<Level 6 - Hexagon/Lost in Primes/README.md>)|         |         |         |
+|-|-|-|-|[Primetime](<Level 4 - Number Four/Primetime/README.md>)|-|-|-|         |         |
