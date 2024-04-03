@@ -2,6 +2,20 @@ import math
 from decimal import Decimal
 
 
+def egcd(a, b):
+    if a == 0:
+        return b, 0, 1
+    else:
+        gcd, x, y = egcd(b % a, a)
+        return gcd, y - (b // a) * x, x
+
+
+def find_phi(e, d):
+    # Solve for phi using the modular inverse of e modulo d
+    _, x, _ = egcd(e, d)
+    return x % d
+
+'''
 def find_phi(e, d):
     phi = 1
     while True:
@@ -13,7 +27,7 @@ def find_phi(e, d):
             phi += 1
         except:
             phi += 1
-
+'''
 
 def solve_for_p(h1, h2):
     # Calculate the coefficients of the quadratic equation
