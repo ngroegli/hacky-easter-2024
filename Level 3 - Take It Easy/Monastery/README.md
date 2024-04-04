@@ -57,14 +57,17 @@ The two transformations took me a lot of time. I thought to reuse the same appro
 So I tried another approach. I used https://www.dcode.fr/cipher-identifier and entered the number there.
 
 This produced the following possible algorithms:
+
 ![Cipher identifier from DCode](cipher_identifier.png)
 
 So I tried all algorithms on DCode and there outputs with CyberChef magic wand detection.
 
 With "Hexadecimal (Base 16)" I could get an output, which was detected by CyberChef magic wand:
+
 ![Base16 Transformation](base_16.png)
 
 CyberChef then proposed "From Hex" to receive the flag:
+
 ![CyberChef From HEX](cyber_chef_from_hex.png)
 
 

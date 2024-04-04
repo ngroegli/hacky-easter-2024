@@ -8,7 +8,7 @@ You already know the username (joe) and his password (letmein1). But, what's nex
 Note: The service is restarted every hour at x:00.
 
 # Solution
-Related to Paypal Bug from 2006 (Discovered by Duo in 2014): https://duo.com/blog/duo-security-researchers-uncover-bypass-of-paypal-s-two-factor-authentication
+Pobably related to Paypal Bug from 2006 (Discovered by Duo in 2014): https://duo.com/blog/duo-security-researchers-uncover-bypass-of-paypal-s-two-factor-authentication
 
 
 
