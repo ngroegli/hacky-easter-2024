@@ -8,10 +8,21 @@ You already know the username (joe) and his password (letmein1). But, what's nex
 Note: The service is restarted every hour at x:00.
 
 # Solution
-Pobably related to Paypal Bug from 2006 (Discovered by Duo in 2014): https://duo.com/blog/duo-security-researchers-uncover-bypass-of-paypal-s-two-factor-authentication
+This challenge is related to the Paypal Bug from 2016: https://henryhoggard.co.uk/blog/Paypal-2FA-Bypass
 
+When opening http://ch.hackyeaster.com:2401/login, we can enter the credentials joe/letmein1.
 
+Then we can use the link "Try another way" (http://ch.hackyeaster.com:2401/questions) to skip 2FA and using the "Security Question" form.
 
+By deleting the two inputs as described on the official vulnerability, we can access the flag:
+
+![Form manipulation](deleted_form_inputs.png)
+
+http://ch.hackyeaster.com:2401/bucksbuddy:
+
+![Flag](flag.png)
+
+Credits for assitance: mdummyh, Ruthless
 
 ## The flag
-    he2024{}
+    he2024{Not_that_easy_anymore, sigh!}
