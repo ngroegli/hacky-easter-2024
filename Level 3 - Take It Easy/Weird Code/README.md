@@ -38,7 +38,7 @@ I tried this in several ways and approaches. But one try without comment (but wi
 
 What I can say is, that "#" is not an allowed punycode character.
 
-Credits: AstroViking for hinting that the empty line has to stay
+Credits for assistance: AstroViking for hinting that the empty line has to stay
 
 ## The flag
     he2024{puny_code_fun}
