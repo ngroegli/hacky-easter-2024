@@ -52,9 +52,6 @@ for i in range(len(l)):
     l[i] = chr((ord(l[i]) - leet) % 10)
 
 
-print(l)
-
-
 '''
   7     >>   66 LOAD_NAME                0 (leet)
              68 LOAD_CONST               2 (10)
