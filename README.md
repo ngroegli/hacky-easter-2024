@@ -8,7 +8,7 @@ So, what are you waiting for? Dive in, explore, and let's crack some eggs! 🥚�
 CTF URL: https://www.hackyeaster.com/ 
 
 ## Challenges
-| Level 0 | Level 1: Welcome | Level 2: Noob's Paradise | Level 3: Take It Easy! | Level 4: Number Four | Level 5: Cinque ✋ | Level 6: Hexagon | Level 7: Seven Of Nine | Level 8 | Level 9 |
+| Level 0 | Level 1: Welcome | Level 2: Noob's Paradise | Level 3: Take It Easy! | Level 4: Number Four | Level 5: Cinque ✋ | Level 6: Hexagon | Level 7: Seven Of Nine | Level 8: Finale Grande | Level 9 |
 | ------- | ------- | ------- | ------- | ------- | ------- | ------- | ------- | ------- | ------- |
 |[Teaser Challenge: Encoding Baseics](<Level 0 - Teaser/README.md>)|[Sanity Check](<Level 1 - Welcome/Sanitiy Check/README.md>)|[Egg Design](<Level 2 - Noob's Paradise/Egg Design/README.md>)|[Red Door](<Level 3 - Take It Easy/Red Door/README.md>)|[Piece of Cake 1](<Level 4 - Number Four/Piece of Cake 1/README.md>)|[Tricky Chicken](<Level 5 - Cinque ✋/Tricky Chicken/README.md>)|[Unknown Identity](<Level 6 - Hexagon/Unknown Identity/README.md>)|         |         |END|
 |-|-|[PEM Flag](<Level 2 - Noob's Paradise/PEM Flag/README.md>)|[Weirdcode](<Level 3 - Take It Easy/Weird Code/README.md>)|[Space 64](<Level 4 - Number Four/Space 64/README.md>)|         |[Hatch Latch](<Level 6 - Hexagon/Hatch Latch/README.md>)|[Dizzazzembly](<Level 7 - Seven Of Nine/Dizzazzembly/README.md>)|         |-|
