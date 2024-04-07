@@ -1,27 +1,27 @@
-# Challenge "Dizzazzembly"
-![Banner Image](banner.jpg)
-
-Have a look at this dizzazzembly.
-
-When entering the flag, the corresponding program did output:
-
-    da.,.0w`-vv[evv[luj^&dUZ'pp*pp)cXb'ds  
-
-[code.txt](code.txt)
-
+'''
   1           0 LOAD_CONST               0 (1337)
               2 STORE_NAME               0 (leet)
+'''
+leet = 1337
 
+'''
   2           4 LOAD_NAME                1 (input)
               6 LOAD_CONST               1 ('enter the flag:')
               8 CALL_FUNCTION            1
              10 STORE_NAME               2 (flag)
+'''
+flag = input('enter the flag:')
 
+'''
   3          12 LOAD_NAME                3 (list)
              14 LOAD_NAME                2 (flag)
              16 CALL_FUNCTION            1
              18 STORE_NAME               4 (l)
+'''
+l = list(flag)
 
+
+'''
   5          20 LOAD_NAME                5 (range)
              22 LOAD_NAME                6 (len)
              24 LOAD_NAME                4 (l)
@@ -31,6 +31,7 @@ When entering the flag, the corresponding program did output:
         >>   32 FOR_ITER                32 (to 66)
              34 STORE_NAME               7 (i)
 
+             
   6          36 LOAD_NAME                8 (chr)
              38 LOAD_NAME                9 (ord)
              40 LOAD_NAME                4 (l)
@@ -46,12 +47,21 @@ When entering the flag, the corresponding program did output:
              60 LOAD_NAME                7 (i)
              62 STORE_SUBSCR
              64 JUMP_ABSOLUTE           32
+'''
+for i in range(len(l)):
+    l[i] = chr(ord(l[i]) - (leet % 10))
 
+
+'''
   7     >>   66 LOAD_NAME                0 (leet)
              68 LOAD_CONST               2 (10)
              70 BINARY_FLOOR_DIVIDE
              72 STORE_NAME               0 (leet)
+'''
+leet = leet // 10
 
+
+'''
   8          74 LOAD_NAME                5 (range)
              76 LOAD_NAME                6 (len)
              78 LOAD_NAME                4 (l)
@@ -83,6 +93,7 @@ When entering the flag, the corresponding program did output:
             126 LOAD_CONST               2 (10)
             128 BINARY_FLOOR_DIVIDE
             130 STORE_NAME               0 (leet)
+
 
  11         132 LOAD_NAME                5 (range)
             134 LOAD_NAME                6 (len)
@@ -156,65 +167,17 @@ When entering the flag, the corresponding program did output:
             260 LOAD_CONST               5 (None)
             262 RETURN_VALUE
 None
+'''
 
+for i in range(len(l) // 2):
+    l[i] = chr(ord(l[i]) + (leet % 10))
+leet = leet // 10
 
-# Solution
-The encoded flag "da.,.0w`-vv[evv[luj^&dUZ'pp*pp)cXb'ds" is 37 characters long.
+for i in range(len(l) // 2, len(l)):
+    l[i] = chr(ord(l[i]) - (leet % 10))
+leet = leet // 10
 
-With the help of ChatGPT I could decompile the code:
+for i in range(len(l)):
+    l[i] = chr(ord(l[i]) ^ (i % (leet % 10)))
 
-[code_translated.py](code_translated.py)
-
-Then I wrapped the code in a function, which checks each next character if it matches the output. If it doesn't it iterates the character for the index as long as the flag is found:
-
-[solver.py](solver.py)
-
-    def bruteforce_character(flag, cipher, index):
-        try:
-            leet = 1337
-
-            l = list(flag)
-
-
-            for i in range(len(l)):
-                l[i] = chr(ord(l[i]) - (leet % 10))
-
-            leet = leet // 10
-
-            for i in range(len(l) // 2):
-                l[i] = chr(ord(l[i]) + (leet % 10))
-            leet = leet // 10
-
-            for i in range(len(l) // 2, len(l)):
-                l[i] = chr(ord(l[i]) - (leet % 10))
-            leet = leet // 10
-
-            for i in range(len(l)):
-                l[i] = chr(ord(l[i]) ^ (i % (leet % 10)))
-
-            return l[index] == cipher[index]
-        except:
-            return False
-
-
-    def main():
-        flag = "he2024{12345678901234567890123456789}" # length 37
-        cipher = "da.,.0w`-vv[evv[luj^&dUZ'pp*pp)cXb'ds"
-        
-        for i in range(7, 36):
-            ch = 0
-            while not bruteforce_character(flag, cipher, i):
-                ch = ch + 1
-                string_list = list(flag)
-                string_list[i] = chr(ch)
-                flag = "".join(string_list)
-
-
-            print("Next character for flag found: {0}".format(flag))
-
-
-    if __name__ == "__main__":
-        main()
-
-## The flag
-    he2024{d1zz_izz_pyth0n_d1zz4zz3mbl1n}
+print(''.join(l))
