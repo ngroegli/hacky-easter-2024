@@ -12,8 +12,17 @@ How do you like it?
 
 
 # Solution
+When opening the space64.txt in VSCode HEX editor, we can see that some spaces do exists. Those spaces should not exist based on https://stackoverflow.com/questions/5110731/is-a-space-possible-in-a-base64-encoding.
 
+Spaces should be represented as '+' and '/' characters. By replacing "E2 80 8B" with "2F" for '/' and "E2 80 8B" with "2B" for '+', we received the new Base64 encoded string for CyberChef:
 
+[Corrected Space64](space64_solved.txt)
+
+![CyberChef solution](cyber_chef_solution.png)
+
+![Flag](flag.png)
+
+Credits for assistance: AstroViking
 
 ## The flag
-    he2024{}
+    he2024{l0st_1n_wh1t3sp4c3}
