@@ -26,6 +26,22 @@ Those seem to relate to the game Noita:
 - https://puzzling.stackexchange.com/questions/119923/noita-eye-glyphs
 - https://scienceblogs.de/klausis-krypto-kolumne/2022/12/21/neues-zu-den-noita-kryptogrammen/
 - https://github.com/ngraham20/NoitaCryptographyResearch/tree/master
+- https://docs.google.com/document/d/1s6gxrc1iLJ78iFfqC2d4qpB9_r_c5U5KwoHVYFFrjy0/edit
+
+After comparing all patterns with the game Noita, we can conclud that only west-5 is added and the rest already existed in the game. So we focus to west-5 only:
+
+The game converts these strings of numbers into eye glyphs using the following table:
+
+![translation.png](images/translation.png)
+
+1 2 1 3 0 1 3 1 0 3 0 3
+ 0 3 0 3 4 2 2 3 2 3 4
+
+
+
+120 031 303 214 312 203 303
+
+
 
 
 ## The flag
