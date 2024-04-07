@@ -165,7 +165,7 @@ With the help of ChatGPT I could decompile the code:
 
 [code_translated.py](code_translated.py)
 
-Then I wrapped the code in a function, which checks each next character if it matches the output. If it doesn't it iterates the character for the index as long as the flag is found:
+Then I wrapped the code in a function, which checks each next character if it matches the output. The inner loop iterates the character for each index as long as the flag is not found:
 
 [solver.py](solver.py)
 
