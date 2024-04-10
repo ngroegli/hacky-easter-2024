@@ -14,8 +14,20 @@ Someone invented a new code, can you crack it?
 # Solution
 By making I = J, we have an english alphabet of 25 characters (5 times 5).
 
-WORKING:
+I tried several approaches but I was a long time stuck. Someone mentioned that the picture of the triangles is a hint.
+
+So tried to bring the Alphabet in a triangular shape so that the 25 characters are evenly arranged:
+
+        A
+       BCD
+      EFGHI
+     KLMNOPQ
+    RSTUVWXYZ
+
+Then we can use the coordinates like [row].[character]. Example 5.3 = Row 5, Character 3 => T
+
+By using that decoding method, we receive "TRIANGULARIZEDCODE".
 
 
 ## The flag
-    he2024{}
+    he2024{TRIANGULARIZEDCODE}
