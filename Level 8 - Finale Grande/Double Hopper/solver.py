@@ -61,7 +61,7 @@ def exploit(host, path, port):
 
 
 def main():
-    exploit("ch.hackyeaster.com", "/flag/static/flag-55a8408e060a25096eb95be8b86f3a2c66f91193.png", 2406)
+    exploit("ch.hackyeaster.com", "/static/flag-55a8408e060a25096eb95be8b86f3a2c66f91193.png", 2406)
    
 
 
