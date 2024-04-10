@@ -83,7 +83,5 @@ The output was made visible to always be capable in crosschecking the result wit
     C0ngran7UlaTi0n, YoU managed T0 read and par5e 7he eYe$! Here i5 Y0Ur flag: he2024[eYe5_$7ill_keep_a_5ecreT]. Replace bracke7$ bef0re checking in!
 
 
-Credits for assistance: radio, Gempana
-
 ## The flag
     he2024{eYe5_$7ill_keep_a_5ecreT}

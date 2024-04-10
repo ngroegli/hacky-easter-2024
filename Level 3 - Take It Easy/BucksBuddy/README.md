@@ -22,7 +22,5 @@ http://ch.hackyeaster.com:2401/bucksbuddy:
 
 ![Flag](flag.png)
 
-Credits for assitance: mdummyh, Ruthless
-
 ## The flag
     he2024{Not_that_easy_anymore, sigh!}

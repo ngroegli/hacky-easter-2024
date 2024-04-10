@@ -22,7 +22,5 @@ Spaces should be represented as '+' and '/' characters. By replacing "E2 80 8B" 
 
 ![Flag](flag.png)
 
-Credits for assistance: AstroViking
-
 ## The flag
     he2024{l0st_1n_wh1t3sp4c3}

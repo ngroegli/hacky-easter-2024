@@ -16,3 +16,5 @@ CTF URL: https://www.hackyeaster.com/
 |-|-|[Chef's Kiss](<Level 2 - Noob's Paradise/Chef's Kiss 👌/README.md>)|[Street Art](<Level 3 - Take It Easy/Street Art/README.md>)|[Prisoner](<Level 4 - Number Four/Prisoners/README.md>)|[gge_deserver](<Level 5 - Cinque ✋/gge_desrever/README.md>)|[Stegano](<Level 6 - Hexagon/Stenago/README.md>)|[Power Lines](<Level 7 - Seven Of Nine/Power Lines/README.md>)|         |-|
 |-|-|-|[Monastery](<Level 3 - Take It Easy/Monastery/README.md>)|[Egg Buster](<Level 4 - Number Four/Egg Busters/README.md>)|[Mr. Slapdash](<Level 5 - Cinque ✋/Mr. Slapdash/README.md>)|[Lost in Primes](<Level 6 - Hexagon/Lost in Primes/README.md>)|[Piece of Cake 2](<Level 7 - Seven Of Nine/Piece of Cake 2/README.md>)|-|-|
 |-|-|-|-|[Primetime](<Level 4 - Number Four/Primetime/README.md>)|-|-|-|-|-|
+
+Credits for hints on Discord and so on: AstroViking, mdummyh, Ruthless, spire, radio, Gempana, xdjibi, c_zer0, Nemah

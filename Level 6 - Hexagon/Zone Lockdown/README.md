@@ -249,7 +249,6 @@ The su permission seems to be missing because of the missing wheel group assignm
     Connection to ch.hackyeaster.com closed by remote host.
     Connection to ch.hackyeaster.com closed.
 
-Credits for assistance: AstroViking
 
 ## The flag
     he2024{z0ne_l0ckd0wn_succ3ssfully_tr1gg3r3d}

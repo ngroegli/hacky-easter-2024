@@ -191,7 +191,6 @@ Output of the script:
 
 From reading the output we can identify a human readable flag. That flag was produced with key "006746129474435789586114087774148047103877147557563881", which was derived from e.
 
-Credits for assistance: c_zer0, Nemah
 
 ## The flag
     he2024{G00d_th1ng_th3s3_numb3rs_ar3_not_1mag1nary....}

@@ -28,7 +28,6 @@ So we can search for something build by them at 1983 on a German island with pro
 
 So with ChatGPT, I searched for all German islands and narrowed down to those with these conditions. On "Langlütjen I" I could find "Radarturm Tettens": https://de.wikipedia.org/wiki/Langl%C3%BCtjen
 
-Credits for assistance: AstroViking
 
 ## The flag
     he2024{Langlütjen}

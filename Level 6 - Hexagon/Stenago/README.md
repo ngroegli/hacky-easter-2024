@@ -30,7 +30,6 @@ After that, the flag is revealed:
 
 ![Flag](flag.png)
 
-Credits for assistance: xdjibi
 
 ## The flag
     he2024{h1d1ng_stuff_1n_p1x3ls}

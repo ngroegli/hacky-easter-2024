@@ -70,8 +70,5 @@ CyberChef then proposed "From Hex" to receive the flag:
 
 ![CyberChef From HEX](cyber_chef_from_hex.png)
 
-
-Credits for assistance: spire
-
 ## The flag
     he2024{monk_numberalz}
