@@ -13,4 +13,4 @@ I used for editing the video: https://ezgif.com/video-to-jpg/. The output can be
 
 
 ## The flag
-    he2024{}
+    he2024{1_w0nd3r_why_th3r3_ju5t_had_tO_be_a_5p1der_t00!}
