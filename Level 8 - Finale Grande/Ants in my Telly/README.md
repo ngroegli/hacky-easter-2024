@@ -46,7 +46,7 @@ With the help of ChatGPT, I could generate a method to export each frame into a 
         print("Frames extracted successfully.")
 
 ## Calculate grid values
-After that, I created another method with ChatGPT to calculate an avg pixel color for all pixels over all images and exports that into a new image:
+After that, I created another method with ChatGPT to calculate an avg pixel color for all pixels over all images. The result had to be exported into a new image:
 
     def calculate_average_image(folder_path):
         images = []
@@ -230,7 +230,7 @@ Since we can assume that we have a quite long leet speak text, value 16 is proba
 
     he2024{-_-0----_-h-_-h---_----_h--_--_--_-_----e-_-00-}
 
-And now I had to make a very long try and error process to test several possible keys and to try to derive from new output further keys. This was a lot of bruteforcing and in the end even required me to test some flags against the site. If it did not work I went back to my keys and tried other combinations like changing 5 and s or O and o. This was very time consuming but in the end, those key-values could be figured out with Frequency analysis and bruteforcing:
+And now I had to make a very long try and error process to test several possible keys and to try to derive from new output further keys. This was a lot of bruteforcing and in the end even required me to test some flags against the site. If it did not work I went back to my keys and tried other combinations like changing 5 and s or O and o. This was very time consuming but in the end, those key-values could be figured out with frequency analysis and bruteforcing:
 
     key.append({  # Test
         "index": 0,
