@@ -106,7 +106,6 @@ def get_known_key_values(cipher_lines):
         "value": "t"
     })
 
-    # 1_w0nder_who_
     key.append({  # Test
         "index": 0,
         "value": "1"
@@ -139,12 +138,12 @@ def get_known_key_values(cipher_lines):
 
     key.append({  # Test
         "index": 19,
-        "value": "o"
+        "value": "y"
     })
 
     key.append({  # Test
         "index": 36,
-        "value": "5"
+        "value": "s"
     })
 
     key.append({  # Test
@@ -170,6 +169,16 @@ def get_known_key_values(cipher_lines):
     key.append({  # Test
         "index": 29,
         "value": "u"
+    })
+
+    key.append({  # Test
+        "index": 34,
+        "value": "?"
+    })
+
+    key.append({  # Test
+        "index": 25,
+        "value": "o"
     })
 
     return key
@@ -222,23 +231,27 @@ def main():
     resized_image.save("average_image_resized.jpg")
 
     cipher_lines = parse_grid_in_binary_file("average_image_resized.jpg")
+    for line in cipher_lines:
+        print(line)
 
     solution = []
     key = get_known_key_values(cipher_lines)
 
     
     print(key)
-
     print_frequency_anaylsis(cipher_lines)
 
-
+    flag = ""
     for row, line in enumerate(cipher_lines):
         one_index = cipher_lines[row].index('1')
         for key_index, key_entry in enumerate(key):
             if key[key_index]["index"] == one_index:
                 line = line.replace("0", "")
                 line = line.replace("1", key_entry["value"])
-        print("{0},     {1}".format(one_index, line))
+        print("{0:4}, {1}".format(one_index, line))
+        flag = flag + line
+
+    print(flag)
 
 
 if __name__ == '__main__':
