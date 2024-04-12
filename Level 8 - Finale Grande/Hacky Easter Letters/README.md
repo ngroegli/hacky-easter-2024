@@ -19,6 +19,13 @@ If you think the dots are the most important thing, redimension your efforts and
 Be careful not to get on the wrong "paht"!
 
 # Solution
+Based from just analysing the paper, I assumed that this is a path description. This was also somewhat implied by the challenge hint. So I assumed the following mapping from paper.jpg:
+
+    l = left
+    r = right
+    u = up
+    d = down
+
 
 
 ## The flag
