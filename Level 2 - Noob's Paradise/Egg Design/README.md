@@ -7,11 +7,11 @@ Hope you like the design of this year's eggs!
 
 
 # Solution
-The image is an URL to https://www.hackyeaster.com/img/eggdesign_layer4.png
+I recognized that each layer is an URL to an image. The red one was an URL to https://www.hackyeaster.com/img/eggdesign_layer4.png
 
 ![fake-flag](egg4.png)
 
-By adjusting the URL number from 4 to 1 we receive to flag-egg with the QR code:
+By adjusting the URL number from 4 to 1 we receive to flag-egg with the QR code (this is the egg on the bottom):
 https://www.hackyeaster.com/img/eggdesign_layer1.png
 
 ![flag](egg1.png)

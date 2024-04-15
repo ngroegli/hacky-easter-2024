@@ -26,7 +26,7 @@ cvv:
 # Solution
 When we assume, that the code x/y/z can be interpreted like the following:
 - x -> credit card
-- y -> number block from credid card x
+- y -> number block from credit card x
 - z -> number from block y
 
 We can derive the following CVVs:

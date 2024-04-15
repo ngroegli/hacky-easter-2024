@@ -8,10 +8,11 @@ I got this string, can you decode it?
 
 
 # Solution
-Use [CyberChef](https://gchq.github.io/CyberChef/ "CyberChef on GitHub") and let auto detection solve the challenge (magic wand):
+I used [CyberChef](https://gchq.github.io/CyberChef/ "CyberChef on GitHub") and let auto detection solve the challenge (magic wand):
+
 ![CyberChef auto detection](CyberChef.png)
 
-By doing so, the flag will be revealed and we can see, that it was encoded Base85.
+By doing so, the flag was revealed and we can see, that it was encoded Base85.
 
 ## The flag
     he2024{64_is_not_enuff!}

@@ -14,7 +14,7 @@ Download the image file below and ignore the title image.
 ![reddoor.jpg](reddoor.jpg)
 
 # Solution
-Use exiftool on Linux to get coordinates of the image:
+I used exiftool on Linux to get coordinates of the image:
 
     ➜  Downloads exiftool reddoor.jpg         
     ExifTool Version Number         : 12.40

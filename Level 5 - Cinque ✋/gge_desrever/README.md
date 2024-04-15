@@ -9,7 +9,7 @@
 # Solution
 Based from the challenge text and the file name, everything is reversed and has to be reversed back to the flag.png.
 
-The main question is, what reversing is required. So after trying different approaches, I cam to the idea to just read the bits in reverse. For doing that, I generated a script:
+The main question is, what reversing is required. So after trying different approaches, I came to the idea to just read the bits in reverse. For doing that, I generated a script:
 
 [solver.py](solver.py)
 

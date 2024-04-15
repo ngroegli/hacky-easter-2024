@@ -43,9 +43,9 @@ First, we need to find p and q. For them we can use the following information:
     hint_2={n - q}
     n = p * q
 
-Insert p * q in n and solve the two equations with the two unknown variables.
+I inserted p * q for n and solved the two equations with the two unknown variables.
 
-With that, it is quite easy to reverse the whole algorithm. For this, the following script is implemented:
+With that, it is quite easy to reverse the whole algorithm. For this, I have the following script implemented:
 
 [solver.py](solver.py)
 

@@ -18,7 +18,7 @@ Notes:
 
 
 # Solution
-First, I had to make myself an overview of what system I have.
+First, I had to get myself an overview of what system I have.
 
 Some commands are not found:
 - sudo

@@ -290,7 +290,55 @@ Now I could check the grid for all h's and see, if the path based of the paper-d
 Using those methods correctly, I could only find one possible start coordinate for the flag: {x: 24, y: 22}
 
 ## Solve challenge with recursion
+With the start coordinate in place and having the grid available, we can solve the riddle. I just started at the start and then walked in a recursive method through the grid based on the direction. I faced an unknown direction, I went through all possible directions simulatniously. After that, I printed all possible flags ending with "}" and "he2024{H@PpY_E4$T3r_fr0m_daubsi!}" seemed to be the flag.
 
+For the recursion I created this method here:
+
+    const paperCode = [ // x = unknown path
+        "l","u","u","l","u","l","d","x","x","x", 
+        "l","d","d","r","d","d","r","r","r","d","x",
+        "d","r","r","r","u","u","u","r","u","u","r"
+    ];
+
+    function recursiveWalk(flag, coordinate, directions){              
+        try{
+            if(directions.length === 0){
+                if(flag.endsWith("}")){
+                    console.log(flag);
+                }
+            }
+
+            let nextDirection = directions.shift();
+            if(nextDirection !== "x"){
+                coordinate = walk({x: coordinate.x, y: coordinate.y}, nextDirection.slice())
+                flag += grid[coordinate.x][coordinate.y];
+                recursiveWalk(flag.slice(), {x: coordinate.x, y: coordinate.y}, directions.slice());
+            } else {
+                // Bruteforce Unknown
+                let coordinateU = walk({x: coordinate.x, y: coordinate.y}, 'u');
+                let coordinateD = walk({x: coordinate.x, y: coordinate.y}, 'd');
+                let coordinateL = walk({x: coordinate.x, y: coordinate.y}, 'l');
+                let coordinateR = walk({x: coordinate.x, y: coordinate.y}, 'r');
+
+                let flagU = flag + grid[coordinateU.x][coordinateU.y];
+                recursiveWalk(flagU.slice(), {x: coordinateU.x, y: coordinateU.y}, directions.slice());
+
+                let flagD = flag + grid[coordinateD.x][coordinateD.y];
+                recursiveWalk(flagD.slice(), {x: coordinateD.x, y: coordinateD.y}, directions.slice());
+
+                let flagL = flag + grid[coordinateL.x][coordinateL.y];
+                recursiveWalk(flagL.slice(), {x: coordinateL.x, y: coordinateL.y}, directions.slice());
+
+                let flagR = flag + grid[coordinateR.x][coordinateR.y];
+                recursiveWalk(flagR.slice(), {x: coordinateR.x, y: coordinateR.y}, directions.slice());
+            }
+        } catch (error)
+        {
+            // ignore
+        }
+    }
+
+It took me a lot of time to figure out, that the first line has one character less in paper.jpg. I could for a long time only get the start of the flag correctly but then it went to rubbish. I needed to adjust that for getting the flag.
 
 Possible flags:
 

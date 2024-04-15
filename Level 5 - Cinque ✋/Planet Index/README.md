@@ -46,13 +46,13 @@ When entering 0, we receive another error. This indicates, that values below the
     ------------
     cat: /usr/src/planetindex/planet-0.txt: No such file or directory
 
-When entering a big negative number like -1000, we are pleased with an integer overflow:
+When entering a big negative number like -10000, we are pleased with an integer overflow:
 
     Enter the index of the planet > -10000
     ------------
     cat: /usr/src/planetindex/planet-55536: No such file or directory
 
-So now it is obvious, that we have to enter a big negative number, which will lead to 9 because of the overflow. This happens precisly with the input "-131063":
+So now it is obvious, that we have to enter a big negative number, which will lead to 9 because of the overflow. This happens for example with the input "-131063":
 
     Enter the index of the planet > -131063
     ------------

@@ -15,7 +15,7 @@ When accessing the site, we are asked about a code:
 
 ![Website for Code](website.png)
 
-When investigating the source code of the website, we can see an JS code to validate the input:
+When investigating the source code of the website, we can see Javascript code to validate the input:
 
 ![Source Code](source_code_website.png)
 
@@ -35,7 +35,7 @@ As we can see, if the MD5 hash matches the input, we will be redirected to "hash
 
 ![Crackstation](crackstation.png)
 
-But when entering "passpass", the site still say "Wrong". So there must be something else.
+But when entering "passpass", the site still returns "Wrong". So there must be something else.
 
 By further investigating the code, we can see in the HTML a javascript src parameter:
 
@@ -66,7 +66,7 @@ Here we can see, that the real password is "pÐ°zzw0rD". But that is longer tha
 
 ![CyberChef](cyberchef.png)
 
-When entering "pаzzw0rD", the message "Correct!" appears. So know we only have to generate the MD5 of that and access the flag directly:
+When entering "pаzzw0rD", the message "Correct!" appears. So now we only have to generate the MD5 hash of that and access the flag directly:
 
 ![MD5 Hash Generator](md5_hash_generator.png)
 

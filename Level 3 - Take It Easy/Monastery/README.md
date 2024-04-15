@@ -15,7 +15,7 @@ By doing a Google picture reverse search it is getting clear, that we are talkin
 
 - Wikipedia article about that: https://en.wikipedia.org/wiki/Cistercian_numerals
 - Guide about cipher: https://historysurvivalguide.com/cistercian-numerals/
-- Tool for decoding the cipher. With that we receive the following numbers (last column for DCode reproduction): https://www.dcode.fr/cistercian-numbers
+- Tool for decoding the cipher. With that, we receive the following numbers (last column for DCode reproduction): https://www.dcode.fr/cistercian-numbers
 
 
     1 letter: 3         char(3)
@@ -60,9 +60,9 @@ This produced the following possible algorithms:
 
 ![Cipher identifier from DCode](cipher_identifier.png)
 
-So I tried all algorithms on DCode and there outputs with CyberChef magic wand detection.
+So I tried all algorithms on DCode and their outputs with CyberChef's magic wand detection.
 
-With "Hexadecimal (Base 16)" I could get an output, which was detected by CyberChef magic wand:
+With "Hexadecimal (Base 16)" I could get an output, which was detected by CyberChef's magic wand:
 
 ![Base16 Transformation](base_16.png)
 

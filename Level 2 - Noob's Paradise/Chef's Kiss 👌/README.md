@@ -15,5 +15,6 @@ Download the recipe below.
 Reverse the recipe with [CyberChef](https://gchq.github.io/CyberChef/#recipe=From_Base64('A-Za-z0-9%2B/%3D',true,false)ROT13(true,true,false,13)From_Base32('A-Z2-7%3D',true)Vigen%C3%A8re_Decode('bunnymaster')From_Base64('A-Za-z0-9%2B/%3D',true,false)ROT8000()XOR(%7B'option':'Hex','string':'1337'%7D,'Standard',false)&input=VkVnelNFeEtWMGxVTlZoVU5rRlhTMVpUUlVoU1dETkxRazh5UzBSSVdWWmFUVXRJV2paSFIwSkVUVXBDTlROSFdGTklWRnBIVjBoYVNESkhRa2d5UTFSSU0wbEdRVmRKVkRWQlZWUktSa1JEVTBsTFNEUXpSVU5QUmxWRU1sbERRVFUwUzFJelVWUkNVMFpMVGpKUlYwSk5OVlJRTkVkR1FrMHpWRmcxTTBWQ1R6TlVXalJIUzFaWFJVcEtNbEJWUTA5RlZGWllNMVJDVnpSTFVrd3pXRUZOUkVsQ05FZFlXVlpOU2tSTlIwTldWelZWVkRWUVQwSlhTVlZPU1ZoSVZFZ3pTVVJGVjBsVU5WZEtSa0ZYUzFsU1MwZFlRVEl5V0ZveVIwSktVVVZVU0ROSVVESk5TVlExV0ZCS1FWZExWa2xPUjFoQk1sbFpUakpIUWtwSFFsUklNMGxFU1UxSlZEVk9TRkJCVjB0WlQwOVJXRUV5UjBGV01rZENTbGxhVkVnelNFcE1SVWxVTlZKUU5rRlhTMVpUU1VkWVFUSkVRazR5UjBKSU0xZFVTRE5KUmtKWFNWUTFRVk5VUVZkTFdFVk5SMWhCTWs5Q1RqSkhRa2hSUkZkTlZVdENORWRhUVVWSFZWSTFNbEJhUVVsVlVEVXpURnBYUlZWRVExYzE&oenc=65001&oeol=NEL)
 
 ![CyberChef Solution](chef_solution.png)
+
 ## The flag
     he2024{Cyb3rch3f_cooks_the_b3st_d1nners_from_simple_1ngr1d13nts}

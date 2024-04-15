@@ -12,13 +12,13 @@ The Easter Bunny has hidden a pair of eyes from the child named Noita. Maybe you
 Hint: Start coding like Lymm!
 
 # Solution
-In the zip file we have tow images:
+In the zip file we have two images:
 
 ![1x-eyes-east.png](eyes/1x-eyes-east.png)
 
 ![1x-eyes-west.png](eyes/1x-eyes-west.png)
 
-Those seem to relate to the game Noita:
+Those seem to relate to the game "Noita":
 - https://reddit.com/r/noita/comments/zmiaao/macbook_decoding_the_eye_cipher/?rdt=62174
 - https://noita.fandom.com/wiki/Eye_Messages
 - https://www.coursehero.com/file/226068863/Noita-Eye-Glyphs-Progress-pdf/
@@ -29,9 +29,9 @@ Those seem to relate to the game Noita:
 - https://docs.google.com/document/d/1s6gxrc1iLJ78iFfqC2d4qpB9_r_c5U5KwoHVYFFrjy0/edit
 - https://docs.google.com/document/d/12sCi3OrTuy4PPcu3zUykue7suHvAPyK-uFKcm8Rp4Go/edit
 
-After comparing all patterns with the game Noita, we can conclude that only west-5 is added and the rest already existed in the game. So we focus to west-5 only:
+After comparing all patterns with the game "Noita", we can conclude that only west-5 is added and the rest already existed in the game. So we focus to west-5 only:
 
-The game converts these strings of eyes into number glyphs using the following table:
+The game-theory lets assume, that these eyes converts into number glyphs using the following table:
 
 ![translation.png](images/translation.png)
 
@@ -66,7 +66,7 @@ l = left
 c = center
 
 ### Calculating the cipher
-For implementing the Trigram cipher plus the transformations base5 to int, for each int + 32 and then to ASCII, I have created another script myself:
+To implement the trigram cipher plus the transformations base5 to int, for each int + 32, and then to ASCII, I wrote another script:
 
 [solver.py](solver.py)
 

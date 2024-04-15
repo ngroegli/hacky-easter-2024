@@ -20,7 +20,7 @@ Hint: It's not 𝛑 this time.
 
 
 # Solution
-Based on the hints from the Discord chat, we have to download irrational numbers to a precission of billions. I found the cool archive which provides exactly such entries: https://archive.org/download/Math_Constants
+Based on the hints from the Discord chat, we have to download irrational numbers to a precission of billions. I found this cool archive which provides exactly such entries: https://archive.org/download/Math_Constants
 
 ![Math Constants](internet_archive_math_constants.png)
 
@@ -28,7 +28,7 @@ After downloading the files, we can extract them and let the following grep comm
 
     grep -oP '0067461\d{46}1' e\ -\ Dec.txt | head -n 1000
 
-This works since from Piece of Cake 1 we know the algorithm and therefor can assume prefix "0067461" for "he2024", the 46 chracter length and "1" for "}". The command will output up to 1000 matches for each file we run it over it.
+This works since from Piece of Cake 1 we know the algorithm and therefor can assume prefix "0067461" for "he2024", the 46 chracter length and "1" for suffix "}". The command will output up to 1000 matches for each file we run it over it.
 
 Here the output for e:
 
@@ -49,7 +49,7 @@ Here the output for e:
     006746130158594281509176820132337126344703777728473261
     006746183499123883054730051615252073730973875420818711
 
-This outputs are then stored in txt files in the folder "possible_keys".
+These outputs are then stored in a txt files in the folder "possible_keys".
 
 Next we take the script from Piece of Cake 1 and adjust it to go over each *.txt file in "possible_keys" and try all keys from all files against the ciphertext.
 

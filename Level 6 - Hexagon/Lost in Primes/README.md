@@ -24,7 +24,7 @@ From the leaked_part.png we can see that all visible numbers are 0 or 1. Further
     download = 1 for true
     http://factordb.com/listtype.php?t=1&mindig={mindig}&perpage={perpage}&start={start}&download={download}
 
-Because of the mentioned facts, we can generate a script to consume all primes with the above URL. But we have to make sure to consume them in small steps and that we filter for values which start with mostly 0 and 1. I assume we only have 0 and 1, but to left some space in my filter since we do not know for sure that only 0 and 1 exists in the number. Primes which matches the criteria will be stored in a output.txt:
+Because of the above facts, we can generate a script to consume all primes with the above URL. But we have to make sure that we consume them in small steps and that we filter for values that mostly start with 0 and 1. I assume that we only have 0 and 1, but I left some wiggle-space in my filter since we do not know for sure that there are only 0 and 1 in the number. Primes that match the criteria are stored in an output.txt:
 
 [consumer.py](consumer.py)
 
@@ -54,6 +54,7 @@ Because of the mentioned facts, we can generate a script to consume all primes w
         main()
 
 By going through the output.txt in VSCode, the flag instantly gets visible (maybe this was luck to see...):
+
 ![flag_in_output.png](flag_in_output.png)
 
 To make it better for scanning, I exported the QR of the flag to [flag_qr_only.txt](flag_qr_only.txt) which can be parsed easly.
@@ -76,7 +77,8 @@ For parsing, I made this script which replaces '1' with '█':
     if __name__ == "__main__":
         main()
 
-For executing the flag_generator, I set the console color to black/white and scan the QR:
+When executing the flag_generator, I have set the console color to black/white and scanned the QR:
+
 ![generated_flag.png](generated_flag.png)
 
 ## The flag
