@@ -2,7 +2,265 @@
 <!-- saved from url=(0031)http://ch.hackyeaster.com:2408/ -->
 <html data-redeviation-bs-uid="m3w342twbxm">
 
+<head>
+    <script>
+        //Work
+        document.addEventListener('DOMContentLoaded', function () {
+            const keyboardShift = [
+                ["~","!","@","#","$","%","^","&","*","(",")","_", "+","Backspace"],
+                ["Tab","Q","W","E","R","T","Y","U","I","O", "P", "{", "}","|"],
+                ["Caps Lock","A","S","D","F","G","H","J","K","L", ":", "\"","Enter"],
+                ["Shift","Z","X","C","V","B","N","M","<",">", "?","Shift"],
+                ["Ctrl","Win","Alt"," ","Alt","Win","Menu","Ctrl"],
+            ];
+
+            const keyboard = [
+                ["`","1","2","3","4","5","6","7","8","9","0","-", "=","Backspace"],
+                ["Tab","q","w","e","r","t","y","u","i","o", "p", "[", "]","\\"],
+                ["Caps Lock","a","s","d","f","g","h","j","k","l", ";", "'","Enter"],
+                ["Shfit","z","x","c","v","b","n","m",",",".", "/","Shift"],
+                ["Ctrl","Win","Alt"," ","Alt","Win","Menu","Ctrl"],
+            ];
+
+            const paperCode = [ // x = unknown path
+                "l","u","u","l","u","l","d","x","x","x", 
+                "l","d","d","r","d","d","r","r","r","d","x",
+                "d","r","r","r","u","u","u","r","u","u","r"
+            ];
+
+            // Function to extract hue from RGB color
+            function getHue(hexColor) {
+                let r = 0;
+                let g = 0;
+                let b = 0;
+
+                if (hexColor.length === 4) {
+                    r = parseInt(hexColor[1] + hexColor[1], 16);
+                    g = parseInt(hexColor[2] + hexColor[2], 16);
+                    b = parseInt(hexColor[3] + hexColor[3], 16);
+                } else if (hexColor.length === 7) {
+                    r = parseInt(hexColor.slice(1, 3), 16);
+                    g = parseInt(hexColor.slice(3, 5), 16);
+                    b = parseInt(hexColor.slice(5, 7), 16);
+                }
+
+                r /= 255;
+                g /= 255;
+                b /= 255;
+
+                const cmin = Math.min(r, g, b);
+                const cmax = Math.max(r, g, b);
+                const delta = cmax - cmin;
+                let h = 0;
+
+                if (delta === 0) {
+                    h = 0;
+                } else if (cmax === r) {
+                    h = ((g - b) / delta) % 6;
+                } else if (cmax === g) {
+                    h = (b - r) / delta + 2;
+                } else {
+                    h = (r - g) / delta + 4;
+                }
+
+                let hue = Math.round(h * 60);
+
+                if (hue < 0) {
+                    hue += 360;
+                }
+
+                return hue;
+            }
+
+            function getLetterFromKeycode(code, shifted=false) {
+                let x = parseInt(code.toString().slice(0, -1),10) - 1;
+                let y = parseInt(code.toString().slice(-1),10) - 1;
+
+                if (shifted) {
+                    return keyboardShift[y][x];
+                } else {
+                    return keyboard[y][x];
+                }
+            }
+
+            function containsCircle(gElement) {
+                // Get all child elements of the <g> element
+                const children = gElement.children;
+
+                // Iterate over the child elements
+                for (let i = 0; i < children.length; i += 1) {
+                    // Check if the child element is a <circle> element
+                    if (children[i].tagName.toLowerCase() === 'circle') {
+                        // If a <circle> element is found, return true
+                        return true;
+                    }
+                }
+                
+                // If no <circle> element is found, return false
+                return false;
+            }
+
+            function displayListInGrid(lst) { // also returns grid
+                // Check if the length of the list is greater than the grid size
+                if (lst.length > 57 * 57) {
+                    console.log("List is too large to display in a 57x57 grid.");
+                    return null;
+                }
+
+                // Create a 57x57 grid filled with empty strings
+                let grid = new Array(57).fill("").map(() => new Array(57).fill(""));
+
+                // Fill the grid with elements from the list
+                for (let i = 0; i < lst.length; i += 1) {
+                    let row = Math.floor(i / 57);
+                    let col = i % 57;
+                    grid[row][col] = lst[i];
+                }
+
+                // Display the grid
+                for (let row of grid) {
+                    console.log(row.map(elem => String(elem).padEnd(3)).join(" "));
+                }
+
+                return grid;
+            }
+
+            // startPoint = {x = int, y = int}
+            function walk(coordinate, direction){
+                switch (direction) {
+                    case 'l':
+                        return {x: coordinate.x, y: coordinate.y - 1}
+                        break;
+                    case 'r':
+                        return {x: coordinate.x, y: coordinate.y + 1}
+                        break;
+                    case 'u':
+                        return {x: coordinate.x - 1, y: coordinate.y}
+                        break;
+                    default: // d
+                        return {x: coordinate.x + 1, y: coordinate.y}
+                        break;
+                }
+            }
+
+            function findLetterCoordinates(grid, letter) {
+                const coordinates = [];
+                for (let i = 0; i < grid.length; i += 1) {
+                    for (let j = 0; j < grid[i].length; j += 1) {
+                        if (grid[i][j] === letter) {
+                            coordinates.push({x: i, y: j});
+                        }
+                    }
+                }
+                return coordinates;
+            }
+
+            function validateStart(coordinate, startOfFlag, keyPart, grid){
+                try{
+                    var validatedFlagStart = ""
+                    for (let i = 0; i < startOfFlag.length; i += 1) {
+                        var currentLetter = grid[coordinate.x][coordinate.y];
+                        validatedFlagStart += currentLetter;
+                        if(!startOfFlag.startsWith(validatedFlagStart)) {
+                            return false;
+                        }
+                        
+                        coordinate = walk(coordinate, keyPart[i]);
+                    }
+
+                    return startOfFlag === validatedFlagStart;
+                } catch (error){
+                    return false;
+                }
+            }
+
+            function recursiveWalk(flag, coordinate, directions){              
+                try{
+                    if(directions.length === 0){
+                        if(flag.endsWith("}")){
+                            console.log(flag);
+                        }
+                    }
+
+                    let nextDirection = directions.shift();
+                    if(nextDirection !== "x"){
+                        coordinate = walk({x: coordinate.x, y: coordinate.y}, nextDirection.slice())
+                        flag += grid[coordinate.x][coordinate.y];
+                        recursiveWalk(flag.slice(), {x: coordinate.x, y: coordinate.y}, directions.slice());
+                    } else {
+                        // Bruteforce Unknown
+                        let coordinateU = walk({x: coordinate.x, y: coordinate.y}, 'u');
+                        let coordinateD = walk({x: coordinate.x, y: coordinate.y}, 'd');
+                        let coordinateL = walk({x: coordinate.x, y: coordinate.y}, 'l');
+                        let coordinateR = walk({x: coordinate.x, y: coordinate.y}, 'r');
+
+                        let flagU = flag + grid[coordinateU.x][coordinateU.y];
+                        recursiveWalk(flagU.slice(), {x: coordinateU.x, y: coordinateU.y}, directions.slice());
+
+                        let flagD = flag + grid[coordinateD.x][coordinateD.y];
+                        recursiveWalk(flagD.slice(), {x: coordinateD.x, y: coordinateD.y}, directions.slice());
+
+                        let flagL = flag + grid[coordinateL.x][coordinateL.y];
+                        recursiveWalk(flagL.slice(), {x: coordinateL.x, y: coordinateL.y}, directions.slice());
+
+                        let flagR = flag + grid[coordinateR.x][coordinateR.y];
+                        recursiveWalk(flagR.slice(), {x: coordinateR.x, y: coordinateR.y}, directions.slice());
+                    }
+                } catch (error)
+                {
+                    // ignore
+                }
+            }
+
+            // RUN ALL TOGETHER
+
+            // Get all elements with 'fill' attribute in the SVG
+            const gElements = document.querySelectorAll('g');
+
+            const keyboardResultList = [];
+            // Iterate over elements and get hue for each
+            gElements.forEach(element => {
+                try {
+                    const children = element.children;
+                    Array.from(children).forEach(function(child) {
+                        if (child.tagName.toLowerCase() === 'path') {
+                            const fillColor = child.getAttribute('fill');
+                            const hue = getHue(fillColor);
+                            const key = getLetterFromKeycode(hue, containsCircle(element));
+                            keyboardResultList.push(key);
+                        }
+                    });
+                    
+                } catch (error) {
+                // Code to handle the error
+                    keyboardResultList.push('|');
+                }
+            });
+
+            console.log("The egg grid translated into keyboard layout:");
+            const grid = displayListInGrid(keyboardResultList);
+            const allStartsForFlag = findLetterCoordinates(grid, 'h');
+            const validatedStartsOfFlag = [];
+            allStartsForFlag.forEach(startCoordinate => {
+                if(validateStart({x: startCoordinate.x, y: startCoordinate.y}, "he2024{", ["l","u","u","l","u","l"], grid)){
+                    validatedStartsOfFlag.push(startCoordinate);
+                }
+            });
+
+            console.log("Validated start coordinates: ");
+            console.log(validatedStartsOfFlag);
+
+            console.log("Possible flags: ");
+            validatedStartsOfFlag.forEach(coordinate => {
+                flag = grid[coordinate.x][coordinate.y]; // start
+                recursiveWalk(flag, {x: coordinate.x, y: coordinate.y}, paperCode);
+            });
+        });
+    </script>
+</head>
+
 <body cz-shortcut-listen="true">
+
     <svg viewBox="0 0 3200 3200" width="2850" height="2800">
         <g transform="rotate(0 21 20)">
             <path d="M1,4c0,-1 1,-4 2,-4c1,0 2,3 2,4c0,1 -1,2 -2,2c-1,0 -2,-1 -2,-2z" fill="#7aa338"
@@ -10168,8 +10426,8 @@
             <path d="M137,244c0,-1 1,-4 2,-4c1,0 2,3 2,4c0,1 -1,2 -2,2c-1,0 -2,-1 -2,-2z" fill="#82ce5f"
                 transform="scale(7)" stroke="black" stroke-width="0.3"></path>
         </g>
-        <paht d="{path}" transform="scale(7)" stroke="black" stroke-width="Ηսе"></paht>
-        <paht d="{path}" transform="Ηacky Easter ӏetters"></paht>
+        <path d="{path}" transform="scale(7)" stroke="black" stroke-width="Ηսе"></path> <!--TBD HERE WAS PAHT-->
+        <path d="{path}" transform="Ηacky Easter ӏetters"></path> <!--TBD HERE WAS PAHT-->
         <g transform="rotate(19 1029 1700)">
             <path d="M145,244c0,-1 1,-4 2,-4c1,0 2,3 2,4c0,1 -1,2 -2,2c-1,0 -2,-1 -2,-2z" fill="#979a42"
                 transform="scale(7)" stroke="black" stroke-width="0.3"></path>

@@ -29,4 +29,4 @@ Based from just analysing the paper, I assumed that this is a path description. 
 
 
 ## The flag
-    he2024{}
+    he2024{H@PpY_E4$T3r_fr0m_daubsi!}
