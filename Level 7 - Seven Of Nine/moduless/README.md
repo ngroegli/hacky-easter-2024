@@ -1,5 +1,5 @@
 # Challenge "moduless"
-![Banner Image](banner.jpg)
+<img src="banner.jpg" width="400px" alt="Banner Image" />
 
 Can you decrypt me even without the modulus?
 

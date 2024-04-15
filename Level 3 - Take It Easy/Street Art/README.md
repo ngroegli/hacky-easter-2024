@@ -1,5 +1,5 @@
 # Challenge "Street Art"
-![Banner Image](banner.png)
+<img src="banner.png" width="400px" alt="Banner Image" />
 
 I found this great street art.
 

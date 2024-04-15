@@ -1,5 +1,5 @@
 # Challenge "Wise Rabbit 3"
-![Banner Image](banner.jpg)
+<img src="banner.jpg" width="400px" alt="Banner Image" />
 
 After a lengthy slumber spanning nine years, Wise Rabbit finally resurfaces on Hacky Easter!
 

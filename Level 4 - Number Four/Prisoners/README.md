@@ -1,5 +1,5 @@
 # Challenge "Prisoners"
-![Banner Image](banner.jpg)
+<img src="banner.jpg" width="400px" alt="Banner Image" />
 
 Prison guards found a snippet of paper with a hand-written message:
 

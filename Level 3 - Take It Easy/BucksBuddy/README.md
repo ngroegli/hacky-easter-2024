@@ -1,5 +1,5 @@
 # Challenge "BucksBuddy"
-![Banner Image](banner.jpg)
+<img src="banner.jpg" width="400px" alt="Banner Image" />
 
 You already know the username (joe) and his password (letmein1). But, what's next?
 

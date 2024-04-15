@@ -1,5 +1,5 @@
 # Challenge "Egg Design"
-![Banner Image](banner.png)
+<img src="banner.png" width="400px" alt="Banner Image" />
 
 Welcome to Hacky Easter 2024!
 

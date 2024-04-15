@@ -1,5 +1,5 @@
 # Challenge "gge_deserver"
-![Banner Image](banner.jpg)
+<img src="banner.jpg" width="400px" alt="Banner Image" />
 
 ?ssem siht elgnatnu ot em pleh uoy naC .desrever tog ti dna gge ym deppord I !pleH
 

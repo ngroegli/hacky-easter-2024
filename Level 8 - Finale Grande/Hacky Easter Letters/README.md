@@ -1,5 +1,5 @@
 # Challenge "Hacky Easter Letters"
-![Banner Image](banner.jpg)
+<img src="banner.jpg" width="400px" alt="Banner Image" />
 
 Little rabbit Huey from the US had decided to send some Easter greeting to his friend Thumper.
 
@@ -31,7 +31,7 @@ Furthermore, the rabbits name "Huey" implies that we have something like CSS HUE
 
 Also the note of US sounds very suspicious.
 
-Besides that, I recognized a typo here, which might be accidential:
+Besides that, I recognized a typo here, which I assume was made by purpose:
 
     <path d="{path}" transform="scale(7)" stroke="black" stroke-width="Ηսе"></path> <!--TBD HERE WAS PAHT-->
     <path d="{path}" transform="Ηacky Easter ӏetters"></path> <!--TBD HERE WAS PAHT-->
@@ -44,7 +44,7 @@ First of all, I downloaded the HTML file to my computer and removed everything e
 With that HTML file, I created a script tag to code my solution directly into the site step by step. All results were logged to the console.
 
 ## Get for each egg the hue value
-First and for all, I created a method for getting the hue value from a g fill value (hex code):
+First and for all, I created a method for getting the hue value from a g-elements fill value (hex code):
 
     function getHue(hexColor) {
         let r = 0;
@@ -90,8 +90,8 @@ First and for all, I created a method for getting the hue value from a g fill va
     }
     
 
-## Get for each egg if it has dots
-With another method, I could identify if a g element has circles as childs or not:
+## Check each egg if it has dots
+With another method, I could identify if a g-element has circles as childs or not:
 
     function containsCircle(gElement) {
         // Get all child elements of the <g> element
@@ -230,7 +230,7 @@ With that, the whole grid was visible:
     R   E   y   k   W   R   _   5   Z   f   k   s   I   @   V   _   c   k   b   P   v   Z   u   q   a   k   q   K   B   W   y   0   r   W   t   R   j   5   Z   O   P   D   R   s   r   h   q   m   w   8   o   h   I   X   3   x   E  
 
 ## Find all h in grid and evalute possible starts
-Now I could check the grid for all h's and see, if the path based of the paper-directions lead to the flagstart "he2024{". That was archived by the following to methods (including the helper method for walking through the grid):
+Now I could check the grid for all h's and see, if the path based of the paper-directions lead to the flagstart "he2024{". That was archived by the following two methods (including the helper method for walking through the grid):
 
     const paperCode = [ // x = unknown path
         "l","u","u","l","u","l","d","x","x","x",        // After playing with the unknown letters around, I could figure out that the first line has one character less than the other two.
@@ -290,7 +290,7 @@ Now I could check the grid for all h's and see, if the path based of the paper-d
 Using those methods correctly, I could only find one possible start coordinate for the flag: {x: 24, y: 22}
 
 ## Solve challenge with recursion
-With the start coordinate in place and having the grid available, we can solve the riddle. I just started at the start and then walked in a recursive method through the grid based on the direction. I faced an unknown direction, I went through all possible directions simulatniously. After that, I printed all possible flags ending with "}" and "he2024{H@PpY_E4$T3r_fr0m_daubsi!}" seemed to be the flag.
+With the start coordinate in place and having the grid available, we can solve the riddle. I just started at the start and then walked in a recursive method through the grid based on the direction. When I faced an unknown direction, I went through all possible directions simulatniously. After that, I printed all possible flags ending with "}". From them "he2024{H@PpY_E4$T3r_fr0m_daubsi!}" seemed to be the flag.
 
 For the recursion I created this method here:
 
@@ -338,7 +338,7 @@ For the recursion I created this method here:
         }
     }
 
-It took me a lot of time to figure out, that the first line has one character less in paper.jpg. I could for a long time only get the start of the flag correctly but then it went to rubbish. I needed to adjust that for getting the flag.
+It took me a lot of time to figure out, that the first line has one character less in paper.jpg. For a long time I only received the start of the flag correctly, but then it went to rubbish. I needed to adjust that for getting the flag.
 
 Possible flags:
 

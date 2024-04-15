@@ -1,5 +1,5 @@
 # Challenge "Piece of Cake 2"
-![Banner Image](banner.jpg)
+<img src="banner.jpg" width="400px" alt="Banner Image" />
 
 This time, Bunny Bob was lost in thoughts. "I cracked your code", the young bunny from before told him. "Is this using the same number again? It's irrational to think this would work twice."
 

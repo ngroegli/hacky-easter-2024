@@ -1,5 +1,5 @@
 # Challenge "Dizzazzembly"
-![Banner Image](banner.jpg)
+<img src="banner.jpg" width="400px" alt="Banner Image" />
 
 Have a look at this dizzazzembly.
 

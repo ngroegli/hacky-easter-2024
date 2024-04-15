@@ -1,5 +1,5 @@
 # Challenge "Chef's Kiss 👌"
-![Banner Image](banner.png)
+<img src="banner.png" width="400px" alt="Banner Image" />
 
 One of the bunnies found a remarkable text that withstood all his decoding attempts.
 

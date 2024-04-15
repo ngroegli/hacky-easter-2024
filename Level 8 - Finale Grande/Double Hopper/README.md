@@ -1,5 +1,5 @@
 # Challenge "Double Hopper"
-![Banner Image](banner.jpg)
+<img src="banner.jpg" width="400px" alt="Banner Image" />
 
 Double hopper will not show you a double whopper.
 

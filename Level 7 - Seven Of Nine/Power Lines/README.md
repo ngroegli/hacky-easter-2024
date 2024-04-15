@@ -1,5 +1,5 @@
 # Challenge "Power Lines"
-![Banner Image](banner.jpg)
+<img src="banner.jpg" width="400px" alt="Banner Image" />
 
 Detected some fluctiations on the power line. We need to check it out.
 

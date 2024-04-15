@@ -1,5 +1,5 @@
 # Challenge "Red Door"
-![Banner Image](banner.jpeg)
+<img src="banner.jpeg" width="400px" alt="Banner Image" />
 
 I found this suspicious door. I wonder what's behind it.
 
@@ -49,7 +49,7 @@ I used exiftool on Linux to get coordinates of the image:
     GPS Longitude                   : 8 deg 29' 7.73" E
     GPS Position                    : 53 deg 28' 53.30" N, 8 deg 29' 7.73" E
 
-Enter the coordinates on Google Maps to receive the city "Nordenham" in germany:
+After entering the coordinates on Google Maps, I received the city "Nordenham" in germany:
 
 ![Google Maps Result](google_maps.png)
 

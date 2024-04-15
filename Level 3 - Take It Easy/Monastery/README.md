@@ -1,5 +1,5 @@
 # Challenge "Monastery"
-![Banner Image](banner.png)
+<img src="banner.png" width="400px" alt="Banner Image" />
 
 You found some strange symbol in an old monastery. Can you make any sense out of it?
 

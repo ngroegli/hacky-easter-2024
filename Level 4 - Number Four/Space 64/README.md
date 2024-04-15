@@ -1,5 +1,5 @@
 # Challenge "Space 64"
-![Banner Image](banner.jpg)
+<img src="banner.jpg" width="400px" alt="Banner Image" />
 
 I invented a new encoding: Space64.
 

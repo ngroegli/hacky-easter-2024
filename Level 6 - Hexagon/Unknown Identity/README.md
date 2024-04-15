@@ -1,5 +1,5 @@
 # Challenge "Unknown Identity"
-![Banner Image](banner.jpg)
+<img src="banner.jpg" width="400px" alt="Banner Image" />
 
 I detected an attempt by an unknown identity to access our cloud account. Can you help me find out who it was?
 

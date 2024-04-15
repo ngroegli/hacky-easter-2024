@@ -1,5 +1,5 @@
 # Challenge "Tricky Chicken"
-![Banner Image](banner.jpg)
+<img src="banner.jpg" width="400px" alt="Banner Image" />
 
 Tricky Chicken can give you an egg.
 

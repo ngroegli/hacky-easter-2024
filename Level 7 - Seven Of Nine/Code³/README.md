@@ -1,5 +1,5 @@
 # Challenge "Code³"
-![Banner Image](banner.jpg)
+<img src="banner.jpg" width="400px" alt="Banner Image" />
 
 Someone invented a new code, can you crack it?
 

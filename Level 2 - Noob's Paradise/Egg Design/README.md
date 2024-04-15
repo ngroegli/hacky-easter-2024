@@ -1,5 +1,5 @@
 # Challenge "Egg Design"
-![Banner Image](banner.png)
+<img src="banner.png" width="400px" alt="Banner Image" />
 
 Hope you like the design of this year's eggs!
 

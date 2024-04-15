@@ -1,5 +1,5 @@
 # Challenge "Mr. Slapdash"
-![Banner Image](banner.jpg)
+<img src="banner.jpg" width="400px" alt="Banner Image" />
 
 I found Mr. Slapdash's notes file where he keeps track of his credit cards.
 

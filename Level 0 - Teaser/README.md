@@ -1,5 +1,5 @@
 # Challenge "Teaser Challenge: Encoding Baseics"
-![Banner Image](banner.jpg)
+<img src="banner.jpg" width="400px" alt="Banner Image" />
 
 I got this string, can you decode it?
 

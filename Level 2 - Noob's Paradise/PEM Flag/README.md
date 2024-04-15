@@ -1,5 +1,5 @@
 # Challenge "PEM Flag"
-![Banner Image](banner.png)
+<img src="banner.png" width="400px" alt="Banner Image" />
 
 I got this flag, but it seems to be encoded in a format called "PEM".
 

@@ -1,5 +1,5 @@
 # Challenge "Egg Buster"
-![Banner Image](banner.jpg)
+<img src="banner.jpg" width="400px" alt="Banner Image" />
 
 Ghostbusters go Egg Hunting!
 
@@ -13,7 +13,7 @@ Hint: You don't need to have an account (sign-up doesn't work anyway). Do some r
 
 # Solution
 
-So we know we have to find an egg.png. So we investigate the article banners from the blog posts.
+So we know we have to find an egg.png. So I investigated the article banners from the blog posts.
 
 Here are two urls of the banner pictures:
 

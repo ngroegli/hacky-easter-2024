@@ -1,5 +1,5 @@
 # Challenge "Primetime"
-![Banner Image](banner.jpg)
+<img src="banner.jpg" width="400px" alt="Banner Image" />
 
 Time for a TV evening!
 

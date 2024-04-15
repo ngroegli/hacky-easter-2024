@@ -1,5 +1,5 @@
 # Challenge "Ants in my Telly"
-![Banner Image](banner.jpg)
+<img src="banner.jpg" width="400px" alt="Banner Image" />
 
 Tired of fuzzy, soft, nice things, the bunnies are watching a nature video about spiders and ants.
 
@@ -11,7 +11,7 @@ But what's that?
 ## Getting the relevant parts from the video
 I used for editing the video initially https://ezgif.com :
 - For croping to the pixeled area: https://ezgif.com/crop-video/
-- For cutting to the correct lenght of the pixeled area: https://ezgif.com/cut-video/
+- For cutting to the correct length of the pixeled area: https://ezgif.com/cut-video/
 
 The output can be found in ./working_files/only_codes_from_video
 
@@ -67,12 +67,12 @@ After that, I created another method with ChatGPT to calculate an avg pixel colo
             print("No images found in the folder.")
             return None
 
-With this I could generate the following image which seems to look like a grid:
+With this, I could generate the following image which seems to look like a grid:
 
 ![average_image.jpg](average_image.jpg)
 
 ## Resize average calculated image
-For making the grid detection easier, I tried to resize the video, so each grid-cell would be exaxtly one pixel big. This could be archive by using the following lines (grid width 40px, grid lenght 55px):
+For making the grid detection easier, I tried to resize the video, so each grid-cell would be exaxtly one pixel big. This could be archive by using the following lines (grid width 40px, grid length 55px):
 
     # Open the image
     image = Image.open("average_image.jpg")
@@ -230,7 +230,7 @@ Since we can assume that we have a quite long leet speak text, value 16 is proba
 
     he2024{-_-0----_-h-_-h---_----_h--_--_--_-_----e-_-00-}
 
-And now I had to make a very long try and error process to test several possible keys and to try to derive from new output further keys. This was a lot of bruteforcing and in the end even required me to test some flags against the site. If it did not work I went back to my keys and tried other combinations like changing 5 and s or O and o. This was very time consuming but in the end, those key-values could be figured out with frequency analysis and bruteforcing:
+And now I had to make a very long try and error process to test several possible keys and to try to derive from new output further keys. This was a lot of bruteforcing and in the end even required me to test some flags against the site. If it did not work, I went back to my keys and tried other combinations like changing 5 and s or O and o. This was very time consuming but in the end, those key-values could be figured out with frequency analysis and bruteforcing:
 
     key.append({  # Test
         "index": 0,
@@ -311,7 +311,7 @@ By using this key against the grid, I could derive somewhen the flag.
 
 The full code can be found here: [solver.py](solver.py)
 
-Note: Most likely there is way without bruteforce, but I could not find it.
+Note: Most likely there is a way without bruteforce, but I could not find it.
 
 ## The flag
     he2024{1_w0nd3r_why_th3r3_just_had_to_b3_a_sp1der_t00?}

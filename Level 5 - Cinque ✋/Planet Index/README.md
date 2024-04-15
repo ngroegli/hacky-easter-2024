@@ -1,5 +1,5 @@
 # Challenge "Planet Index"
-![Banner Image](banner.jpg)
+<img src="banner.jpg" width="400px" alt="Banner Image" />
 
 Welcome to the Index of Planets!
 

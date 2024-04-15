@@ -1,5 +1,5 @@
 # Challenge "Zone Lockdown"
-![Banner Image](banner.jpg)
+<img src="banner.jpg" width="400px" alt="Banner Image" />
 
 This is an emergency! Your network was infiltrated, and you immediately need to initiate a zone lockdown!
 

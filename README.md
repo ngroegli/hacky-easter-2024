@@ -1,9 +1,10 @@
 # Hacky Easter 2024 - Writeup
-Hey there, fellow hackers! This is your go-to spot for all the juicy solutions and writeups for the Hacky Easter CTF. Whether you're a seasoned pro or just dipping your toes into the world of Capture The Flag competitions, this repo's got your back.
 
-Inside, you'll find step-by-step guides, tips, and tricks for cracking those tricky challenges. From cracking codes to outsmarting puzzles, we've got it all covered.
+Welcome to my journey through Hacky Easter 2024! In this write-up, I'm excited to share my solutions for all the challenges I encountered. While I may not have the most elegant or sophisticated solutions, each one led me to the coveted flag in the end.
 
-So, what are you waiting for? Dive in, explore, and let's crack some eggs! 🥚🔓 Happy hacking!
+I want to extend a special thanks to the individuals credited in this write-up. Their guidance, nudges, and hints played a crucial role in unraveling some of the trickier puzzles. Without their support, this adventure would have been far more challenging.
+
+So, join me as I delve into the depths of Hacky Easter 2024, exploring, experimenting, and ultimately triumphing in the face of each challenge. Let's dive in! 🥚🔓 Happy hacking!
 
 CTF URL: https://www.hackyeaster.com/ 
 
@@ -19,4 +20,9 @@ CTF URL: https://www.hackyeaster.com/
 
 
 ## Credits
-Credits for hints and figuring out rabbit holes: AstroViking, mdummyh, Ruthless, spire, radio, Gempana, xdjibi, c_zer0, Nemah
+Acknowledgements for assistance with hints and navigating through rabbit holes: AstroViking, mdummyh, Ruthless, spire, radio, Gempana, xdjibi, c_zer0, Nemah
+
+## Hacky Easter 2024 Ph1n1sh3r Badge
+![Phinisher Badge](PhinisherBadge.png)
+
+https://eu.badgr.com/public/assertions/iEow2z7VRL2gSW0mlcMnmg

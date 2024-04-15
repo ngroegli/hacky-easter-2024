@@ -1,5 +1,5 @@
 # Challenge "Hatch Latch"
-![Banner Image](banner.jpg)
+<img src="banner.jpg" width="400px" alt="Banner Image" />
 
 You found this hatch. It should be easy to open, but you might need some force.
 

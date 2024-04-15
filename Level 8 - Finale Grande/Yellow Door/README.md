@@ -1,5 +1,5 @@
 # Challenge "Yellow Door"
-![Banner Image](banner.jpg)
+<img src="banner.jpg" width="400px" alt="Banner Image" />
 
 I found this suspicious door on an island during my last trip.
 
@@ -22,7 +22,7 @@ The image itself contains a label over the yellow door. On the label we can read
     Fa Ludwig Voss
     Cuxhaven
 
-With that information, we can figure out that this is a construction company from germany: https://cuxpedia.de/index.php?title=Ludwig_Voss_GmbH_%26_Co.KG
+With that information, I could figure out that this was build by a construction company from germany: https://cuxpedia.de/index.php?title=Ludwig_Voss_GmbH_%26_Co.KG
 
 So we can search for something build by them at 1983 on a German island with probably more than just one word and/or a suffix.
 

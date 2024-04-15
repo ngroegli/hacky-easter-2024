@@ -1,5 +1,5 @@
 # Challenge "Lost in Primes"
-![Banner Image](banner.jpg)
+<img src="banner.jpg" width="400px" alt="Banner Image" />
 
 One of our Prime eggs is lost.
 
