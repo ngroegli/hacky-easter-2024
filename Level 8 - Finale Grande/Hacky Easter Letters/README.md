@@ -292,6 +292,10 @@ Using those methods correctly, I could only find one possible start coordinate f
 ## Solve challenge with recursion
 
 
+Possible flags:
+
+![Possible Flags](<possible_flags.png>)
+
 ## The whole code including the result
 Everything combined can be found within:
 
