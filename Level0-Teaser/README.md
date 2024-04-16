@@ -1,10 +1,12 @@
 # Challenge "Teaser Challenge: Encoding Baseics"
-<img src="banner.jpg" width="400px" alt="Banner Image">
+<img src="banner.jpg" width="400px" alt="Banner Image"><br/>
 
 I got this string, can you decode it?
 
     BOrqQ1,O>91gas<?Z'e(?Y++tAnE37
 
+
+**Difficulty:** <span style="background-color: #69bbe9; padding: 5px; color: black;">🤓 noob</span> | **Category:** <span style="background-color: #ced4da; padding: 5px; color: black;">⚄ misc</span>
 
 # Solution
 I used [CyberChef](https://gchq.github.io/CyberChef/ "CyberChef on GitHub") and let auto detection solve the challenge (magic wand):
