@@ -19,91 +19,89 @@ Acknowledgements for assistance with hints and navigating through rabbit holes: 
 
 | Challenge | Difficulty | Category |
 |-----------|------------|--------|
-| [Teaser Challenge: Encoding Baseics](<Level 0 - Teaser/README.md>) | <span style="background-color: #69bbe9; padding: 5px; color: black;">🤓 noob</span> | ⚄ misc |
+| [Teaser Challenge: Encoding Baseics](<Level0-Teaser/README.md>) | <span style="background-color: #69bbe9; padding: 5px; color: black;">🤓 noob</span> | ⚄ misc |
 
 
 ### Level 1: Welcome
 
 | Challenge | Difficulty | Category |
 |-----------|------------|--------|
-| [Sanity Check](<Level 1 - Welcome/Sanitiy Check/README.md>) | <span style="background-color: #69bbe9; padding: 5px; color: black;">🤓 noob</span> | ⚄ misc |
+| [Sanity Check](<Level1-Welcome/SanityCheck/README.md>) | <span style="background-color: #69bbe9; padding: 5px; color: black;">🤓 noob</span> | ⚄ misc |
 
 
 ### Level 2: Noob's Paradise
 
 | Challenge | Difficulty | Category |
 |-----------|------------|--------|
-| [Egg Design](<Level 2 - Noob's Paradise/Egg Design/README.md>) | <span style="background-color: #69bbe9; padding: 5px; color: black;">🤓 noob</span> | 🌐 web |
-| [PEM Flag](<Level 2 - Noob's Paradise/PEM Flag/README.md>) | <span style="background-color: #69bbe9; padding: 5px; color: black;">🤓 noob</span> | ⚄ misc |
-| [The Duck](<Level 2 - Noob's Paradise/The Duck/README.md>) | <span style="background-color: #69bbe9; padding: 5px; color: black;">🤓 noob</span> | 🔐 crypto |
-| [Chef's Kiss](<Level 2 - Noob's Paradise/Chef's Kiss 👌/README.md>) | <span style="background-color: #69bbe9; padding: 5px; color: black;">🤓 noob</span> | ⚄ misc |
+| [Egg Design](<Level2-NoobsParadise/EggDesign/README.md>) | <span style="background-color: #69bbe9; padding: 5px; color: black;">🤓 noob</span> | 🌐 web |
+| [PEM Flag](<Level2-NoobsParadise/PEMFlag/README.md>) | <span style="background-color: #69bbe9; padding: 5px; color: black;">🤓 noob</span> | ⚄ misc |
+| [The Duck](<Level2-NoobsParadise/TheDuck/README.md>) | <span style="background-color: #69bbe9; padding: 5px; color: black;">🤓 noob</span> | 🔐 crypto |
+| [Chef's Kiss](<Level2-NoobsParadise/ChefsKiss 👌/README.md>) | <span style="background-color: #69bbe9; padding: 5px; color: black;">🤓 noob</span> | ⚄ misc |
 
 ### Level 3: Take It Easy!
 
 | Challenge | Difficulty | Category |
 |-----------|------------|--------|
-| [Red Door](<Level 3 - Take It Easy/Red Door/README.md>) | <span style="background-color: #8fe699; padding: 5px; color: black;">🎮 easy</span> | 👁️ osint |
-| [Weirdcode](<Level 3 - Take It Easy/Weird Code/README.md>) | <span style="background-color: #8fe699; padding: 5px; color: black;">🎮 easy</span> | < > reversing |
-| [BucksBuddy](<Level 3 - Take It Easy/BucksBuddy/README.md>) | <span style="background-color: #8fe699; padding: 5px; color: black;">🎮 easy</span> | 🌐 web |
-| [Street Art](<Level 3 - Take It Easy/Street Art/README.md>) | <span style="background-color: #8fe699; padding: 5px; color: black;">🎮 easy</span> | 👁️ osint |
-| [Monastery](<Level 3 - Take It Easy/Monastery/README.md>) | <span style="background-color: #8fe699; padding: 5px; color: black;">🎮 easy</span> | 🔐 crypto |
+| [Red Door](<Level3-TakeItEasy/RedDoor/README.md>) | <span style="background-color: #8fe699; padding: 5px; color: black;">🎮 easy</span> | 👁️ osint |
+| [Weirdcode](<Level3-TakeItEasy/WeirdCode/README.md>) | <span style="background-color: #8fe699; padding: 5px; color: black;">🎮 easy</span> | < > reversing |
+| [BucksBuddy](<Level3-TakeItEasy/BucksBuddy/README.md>) | <span style="background-color: #8fe699; padding: 5px; color: black;">🎮 easy</span> | 🌐 web |
+| [Street Art](<Level3-TakeItEasy/StreetArt/README.md>) | <span style="background-color: #8fe699; padding: 5px; color: black;">🎮 easy</span> | 👁️ osint |
+| [Monastery](<Level3-TakeItEasy/Monastery/README.md>) | <span style="background-color: #8fe699; padding: 5px; color: black;">🎮 easy</span> | 🔐 crypto |
 
 ### Level 4: Number Four
 
 | Challenge | Difficulty | Category |
 |-----------|------------|--------|
-| [Piece of Cake 1](<Level 4 - Number Four/Piece of Cake 1/README.md>) | <span style="background-color: #e6cb39; padding: 5px; color: black;">⚖️ medium</span> | ⚄ misc, 🔐 crypto |
-| [Space 64](<Level 4 - Number Four/Space 64/README.md>) | <span style="background-color: #e6cb39; padding: 5px; color: black;">⚖️ medium</span> | 🔍 forensic |
-| [Wise Rabbit 3](<Level 4 - Number Four/Wise Rabbit 3/README.md>) | <span style="background-color: #8fe699; padding: 5px; color: black;">🎮 easy</span> | 🌐 web |
-| [Prisoner](<Level 4 - Number Four/Prisoners/README.md>) | <span style="background-color: #8fe699; padding: 5px; color: black;">🎮 easy</span> | 🔐 crypto |
-| [Egg Buster](<Level 4 - Number Four/Egg Busters/README.md>) | <span style="background-color: #8fe699; padding: 5px; color: black;">🎮 easy</span> | 🌐 web |
-| [Primetime](<Level 4 - Number Four/Primetime/README.md>) | <span style="background-color: #8fe699; padding: 5px; color: black;">🎮 easy</span> | ⚄ misc |
+| [Piece of Cake 1](<Level4-NumberFour/PieceOfCake 1/README.md>) | <span style="background-color: #e6cb39; padding: 5px; color: black;">⚖️ medium</span> | ⚄ misc, 🔐 crypto |
+| [Space 64](<Level4-NumberFour/Space64/README.md>) | <span style="background-color: #e6cb39; padding: 5px; color: black;">⚖️ medium</span> | 🔍 forensic |
+| [Wise Rabbit 3](<Level4-NumberFour/WiseRabbit3/README.md>) | <span style="background-color: #8fe699; padding: 5px; color: black;">🎮 easy</span> | 🌐 web |
+| [Prisoner](<Level4-NumberFour/Prisoners/README.md>) | <span style="background-color: #8fe699; padding: 5px; color: black;">🎮 easy</span> | 🔐 crypto |
+| [Egg Buster](<Level4-NumberFour/EggBusters/README.md>) | <span style="background-color: #8fe699; padding: 5px; color: black;">🎮 easy</span> | 🌐 web |
+| [Primetime](<Level4-NumberFour/Primetime/README.md>) | <span style="background-color: #8fe699; padding: 5px; color: black;">🎮 easy</span> | ⚄ misc |
 
 ### Level 5: Cinque ✋
 
 | Challenge | Difficulty | Category |
 |-----------|------------|--------|
-| [Tricky Chicken](<Level 5 - Cinque ✋/Tricky Chicken/README.md>) | <span style="background-color: #e6cb39; padding: 5px; color: black;">⚖️ medium</span> | 🌐 web |
-| [Eyes Reading](<Level 5 - Cinque ✋/​Eyes Reading/README.md>) | <span style="background-color: #e6cb39; padding: 5px; color: black;">⚖️ medium</span> | ⚄ misc |
-| [Planet Index](<Level 5 - Cinque ✋/Planet Index/README.md>) | <span style="background-color: #e6cb39; padding: 5px; color: black;">⚖️ medium</span> | 💀 pwn |
-| [gge_deserver](<Level 5 - Cinque ✋/gge_desrever/README.md>) | <span style="background-color: #e6cb39; padding: 5px; color: black;">⚖️ medium</span> | ⚄ misc, < > reversing |
-| [Mr. Slapdash](<Level 5 - Cinque ✋/Mr. Slapdash/README.md>) | <span style="background-color: #8fe699; padding: 5px; color: black;">🎮 easy</span> | 🔐 crypto |
+| [Tricky Chicken](<Level5-Cinque✋/TrickyChicken/README.md>) | <span style="background-color: #e6cb39; padding: 5px; color: black;">⚖️ medium</span> | 🌐 web |
+| [Eyes Reading](<Level5-Cinque✋/​EyesReading/README.md>) | <span style="background-color: #e6cb39; padding: 5px; color: black;">⚖️ medium</span> | ⚄ misc |
+| [Planet Index](<Level5-Cinque✋/PlanetIndex/README.md>) | <span style="background-color: #e6cb39; padding: 5px; color: black;">⚖️ medium</span> | 💀 pwn |
+| [gge_deserver](<Level5-Cinque✋/gge_desrever/README.md>) | <span style="background-color: #e6cb39; padding: 5px; color: black;">⚖️ medium</span> | ⚄ misc, < > reversing |
+| [Mr. Slapdash](<Level5-Cinque✋/MrSlapdash/README.md>) | <span style="background-color: #8fe699; padding: 5px; color: black;">🎮 easy</span> | 🔐 crypto |
 
 
 ### Level 6: Hexagon
 
 | Challenge | Difficulty | Category |
 |-----------|------------|--------|
-| [Unknown Identity](<Level 6 - Hexagon/Unknown Identity/README.md>) | <span style="background-color: #e6cb39; padding: 5px; color: black;">⚖️ medium</span> | ☁️ cloud |
-| [Hatch Latch](<Level 6 - Hexagon/Hatch Latch/README.md>) | <span style="background-color: #e6cb39; padding: 5px; color: black;">⚖️ medium</span> | < > reversing, 🔐 crypto |
-| [Zone Lockdown](<Level 6 - Hexagon/Zone Lockdown/README.md>) | <span style="background-color: #e6cb39; padding: 5px; color: black;">⚖️ medium</span> | 💀 pwn |
-| [Stenago](<Level 6 - Hexagon/Stenago/README.md>) | <span style="background-color: #e6cb39; padding: 5px; color: black;">⚖️ medium</span> | 🔍 forensics |
-| [Lost in Primes](<Level 6 - Hexagon/Lost in Primes/README.md>) | <span style="background-color: #e6cb39; padding: 5px; color: black;">⚖️ medium</span> | ⚄ misc |
+| [Unknown Identity](<Level6-Hexagon/UnknownIdentity/README.md>) | <span style="background-color: #e6cb39; padding: 5px; color: black;">⚖️ medium</span> | ☁️ cloud |
+| [Hatch Latch](<Level6-Hexagon/HatchLatch/README.md>) | <span style="background-color: #e6cb39; padding: 5px; color: black;">⚖️ medium</span> | < > reversing, 🔐 crypto |
+| [Zone Lockdown](<Level6-Hexagon/ZoneLockdown/README.md>) | <span style="background-color: #e6cb39; padding: 5px; color: black;">⚖️ medium</span> | 💀 pwn |
+| [Stenago](<Level6-Hexagon/Stenago/README.md>) | <span style="background-color: #e6cb39; padding: 5px; color: black;">⚖️ medium</span> | 🔍 forensics |
+| [Lost in Primes](<Level6-Hexagon/LostInPrimes/README.md>) | <span style="background-color: #e6cb39; padding: 5px; color: black;">⚖️ medium</span> | ⚄ misc |
 
 ### Level 7: Seven Of Nine
 
 | Challenge | Difficulty | Category |
 |-----------|------------|--------|
-| [Code³](<Level 7 - Seven Of Nine/Code³/README.md>) | <span style="background-color: #e68f8f; padding: 5px; color: black;">☢️ hard</span> | 🔐 crypto |
-| [Dizzazzembly](<Level 7 - Seven Of Nine/Dizzazzembly/README.md>) | <span style="background-color: #e68f8f; padding: 5px; color: black;">☢️ hard</span> | < > reversing |
-| [moduless](<Level 7 - Seven Of Nine/moduless/README.md>) | <span style="background-color: #e6cb39; padding: 5px; color: black;">⚖️ medium</span> | 🔐 crypto |
-| [Power Lines](<Level 7 - Seven Of Nine/Power Lines/README.md>) | <span style="background-color: #e6cb39; padding: 5px; color: black;">⚖️ medium</span> | ⚄ misc |
-| [Piece of Cake 2](<Level 7 - Seven Of Nine/Piece of Cake 2/README.md>) | <span style="background-color: #e6cb39; padding: 5px; color: black;">⚖️ medium</span> | ⚄ misc, 🔐 crypto |
+| [Code³](<Level7-SevenOfNine/Code3/README.md>) | <span style="background-color: #e68f8f; padding: 5px; color: black;">☢️ hard</span> | 🔐 crypto |
+| [Dizzazzembly](<Level7-SevenOfNine/Dizzazzembly/README.md>) | <span style="background-color: #e68f8f; padding: 5px; color: black;">☢️ hard</span> | < > reversing |
+| [moduless](<Level7-SevenOfNine/moduless/README.md>) | <span style="background-color: #e6cb39; padding: 5px; color: black;">⚖️ medium</span> | 🔐 crypto |
+| [Power Lines](<Level7-SevenOfNine/PowerLines/README.md>) | <span style="background-color: #e6cb39; padding: 5px; color: black;">⚖️ medium</span> | ⚄ misc |
+| [Piece of Cake 2](<Level7-SevenOfNine/PieceOfCake 2/README.md>) | <span style="background-color: #e6cb39; padding: 5px; color: black;">⚖️ medium</span> | ⚄ misc, 🔐 crypto |
 
 ### Level 8: Finale Grande
 
 | Challenge | Difficulty | Category |
 |-----------|------------|--------|
-| [Yellow Door](<Level 8 - Finale Grande/Yellow Door/README.md>) | <span style="background-color: #e68f8f; padding: 5px; color: black;">☢️ hard</span> | 👁️ osint |
-| [Hacky Easter Letter](<Level 8 - Finale Grande/Hacky Easter Letters/README.md>) | <span style="background-color: #e68f8f; padding: 5px; color: black;">☢️ hard</span> | ⚄ misc |
-| [Double Hopper](<Level 8 - Finale Grande/Double Hopper/README.md>) | <span style="background-color: #e68f8f; padding: 5px; color: black;">☢️ hard</span> | 🌐 web |
-| [Ants in my Telly](<Level 8 - Finale Grande/Ants in my Telly/README.md>) | <span style="background-color: #e68f8f; padding: 5px; color: black;">☢️ hard</span> | ⚄ misc, 🔍 forensics |
+| [Yellow Door](<Level8-FinaleGrande/YellowDoor/README.md>) | <span style="background-color: #e68f8f; padding: 5px; color: black;">☢️ hard</span> | 👁️ osint |
+| [Hacky Easter Letter](<Level8-FinaleGrande/HackyEasterLetters/README.md>) | <span style="background-color: #e68f8f; padding: 5px; color: black;">☢️ hard</span> | ⚄ misc |
+| [Double Hopper](<Level8-FinaleGrande/DoubleHopper/README.md>) | <span style="background-color: #e68f8f; padding: 5px; color: black;">☢️ hard</span> | 🌐 web |
+| [Ants in my Telly](<Level8-FinaleGrande/AntsInMyTelly/README.md>) | <span style="background-color: #e68f8f; padding: 5px; color: black;">☢️ hard</span> | ⚄ misc, 🔍 forensics |
 
 ### Level 9
 
 ![Level 9](Level9-TheEnd/level9.png)
-
-![test](test/level9.png)
 
 ## Hacky Easter 2024 Ph1n1sh3r Badge
 ![Phinisher Badge](PhinisherBadge.png)

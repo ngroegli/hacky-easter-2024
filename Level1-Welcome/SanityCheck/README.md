@@ -1,4 +1,4 @@
-# Challenge "Egg Design"
+# Challenge "Sanity  Check"
 <img src="banner.png" width="400px" alt="Banner Image" />
 
 Welcome to Hacky Easter 2024!
