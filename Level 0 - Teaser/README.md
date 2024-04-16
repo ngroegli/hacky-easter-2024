@@ -1,5 +1,5 @@
 # Challenge "Teaser Challenge: Encoding Baseics"
-<img src="https://github.com/ngroegli/hacky-easter-2024/blob/2924e5dc27e7d0b9bcb565104770fd1993577e3d/Level%200%20-%20Teaser/banner.jpg" width="400px" alt="Banner Image">
+<img src="./Level 0 - Teaser/banner.jpg" width="400px" alt="Banner Image">
 
 I got this string, can you decode it?
 
