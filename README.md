@@ -101,7 +101,7 @@ Acknowledgements for assistance with hints and navigating through rabbit holes: 
 
 ### Level 9
 
-![Level 9](Level%209%20-%20The%20End/level9.png)
+![Level 9](Level9-TheEnd/level9.png)
 
 ![test](test/level9.png)
 
