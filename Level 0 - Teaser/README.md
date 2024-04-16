@@ -1,6 +1,8 @@
 # Challenge "Teaser Challenge: Encoding Baseics"
 <img src="./banner.jpg" width="400px" alt="Banner Image">
 
+![ ](./banner.jpg)
+
 I got this string, can you decode it?
 
     BOrqQ1,O>91gas<?Z'e(?Y++tAnE37
