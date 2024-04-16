@@ -2,6 +2,8 @@
 
 Welcome to my journey through Hacky Easter 2024! In this write-up, I'm excited to share my solutions for all the challenges I encountered. While I may not have the most elegant or sophisticated solutions, each one led me to the coveted flag in the end.
 
+Big shoutout to the awesome organization team for putting together such an exciting and challenging Hacky Easter 2024 experience!
+
 I want to extend a special thanks to the individuals credited in this write-up. Their guidance, nudges, and hints played a crucial role in unraveling some of the trickier puzzles. Without their support, this adventure would have been far more challenging.
 
 So, join me as I delve into the depths of Hacky Easter 2024, exploring, experimenting, and ultimately triumphing in the face of each challenge. Let's dive in! 🥚🔓 Happy hacking!
