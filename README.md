@@ -17,21 +17,21 @@ Acknowledgements for assistance with hints and navigating through rabbit holes: 
 
 ### Level 0 
 
-| Challenge | Difficulty | Labels |
+| Challenge | Difficulty | Category |
 |-----------|------------|--------|
 | [Teaser Challenge: Encoding Baseics](<Level 0 - Teaser/README.md>) | <span style="background-color: #69bbe9; padding: 5px; color: black;">🤓 noob</span> | ⚄ misc |
 
 
 ### Level 1: Welcome
 
-| Challenge | Difficulty | Labels |
+| Challenge | Difficulty | Category |
 |-----------|------------|--------|
 | [Sanity Check](<Level 1 - Welcome/Sanitiy Check/README.md>) | <span style="background-color: #69bbe9; padding: 5px; color: black;">🤓 noob</span> | ⚄ misc |
 
 
 ### Level 2: Noob's Paradise
 
-| Challenge | Difficulty | Labels |
+| Challenge | Difficulty | Category |
 |-----------|------------|--------|
 | [Egg Design](<Level 2 - Noob's Paradise/Egg Design/README.md>) | <span style="background-color: #69bbe9; padding: 5px; color: black;">🤓 noob</span> | 🌐 web |
 | [PEM Flag](<Level 2 - Noob's Paradise/PEM Flag/README.md>) | <span style="background-color: #69bbe9; padding: 5px; color: black;">🤓 noob</span> | ⚄ misc |
@@ -40,7 +40,7 @@ Acknowledgements for assistance with hints and navigating through rabbit holes: 
 
 ### Level 3: Take It Easy!
 
-| Challenge | Difficulty | Labels |
+| Challenge | Difficulty | Category |
 |-----------|------------|--------|
 | [Red Door](<Level 3 - Take It Easy/Red Door/README.md>) | <span style="background-color: #8fe699; padding: 5px; color: black;">🎮 easy</span> | 👁️ osint |
 | [Weirdcode](<Level 3 - Take It Easy/Weird Code/README.md>) | <span style="background-color: #8fe699; padding: 5px; color: black;">🎮 easy</span> | < > reversing |
@@ -50,7 +50,7 @@ Acknowledgements for assistance with hints and navigating through rabbit holes: 
 
 ### Level 4: Number Four
 
-| Challenge | Difficulty | Labels |
+| Challenge | Difficulty | Category |
 |-----------|------------|--------|
 | [Piece of Cake 1](<Level 4 - Number Four/Piece of Cake 1/README.md>) | <span style="background-color: #e6cb39; padding: 5px; color: black;">⚖️ medium</span> | ⚄ misc, 🔐 crypto |
 | [Space 64](<Level 4 - Number Four/Space 64/README.md>) | <span style="background-color: #e6cb39; padding: 5px; color: black;">⚖️ medium</span> | 🔍 forensic |
@@ -61,7 +61,7 @@ Acknowledgements for assistance with hints and navigating through rabbit holes: 
 
 ### Level 5: Cinque ✋
 
-| Challenge | Difficulty | Labels |
+| Challenge | Difficulty | Category |
 |-----------|------------|--------|
 | [Tricky Chicken](<Level 5 - Cinque ✋/Tricky Chicken/README.md>) | <span style="background-color: #e6cb39; padding: 5px; color: black;">⚖️ medium</span> | 🌐 web |
 | [Eyes Reading](<Level 5 - Cinque ✋/​Eyes Reading/README.md>) | <span style="background-color: #e6cb39; padding: 5px; color: black;">⚖️ medium</span> | ⚄ misc |
@@ -72,7 +72,7 @@ Acknowledgements for assistance with hints and navigating through rabbit holes: 
 
 ### Level 6: Hexagon
 
-| Challenge | Difficulty | Labels |
+| Challenge | Difficulty | Category |
 |-----------|------------|--------|
 | [Unknown Identity](<Level 6 - Hexagon/Unknown Identity/README.md>) | <span style="background-color: #e6cb39; padding: 5px; color: black;">⚖️ medium</span> | ☁️ cloud |
 | [Hatch Latch](<Level 6 - Hexagon/Hatch Latch/README.md>) | <span style="background-color: #e6cb39; padding: 5px; color: black;">⚖️ medium</span> | < > reversing, 🔐 crypto |
@@ -82,7 +82,7 @@ Acknowledgements for assistance with hints and navigating through rabbit holes: 
 
 ### Level 7: Seven Of Nine
 
-| Challenge | Difficulty | Labels |
+| Challenge | Difficulty | Category |
 |-----------|------------|--------|
 | [Code³](<Level 7 - Seven Of Nine/Code³/README.md>) | <span style="background-color: #e68f8f; padding: 5px; color: black;">☢️ hard</span> | 🔐 crypto |
 | [Dizzazzembly](<Level 7 - Seven Of Nine/Dizzazzembly/README.md>) | <span style="background-color: #e68f8f; padding: 5px; color: black;">☢️ hard</span> | < > reversing |
@@ -92,7 +92,7 @@ Acknowledgements for assistance with hints and navigating through rabbit holes: 
 
 ### Level 8: Finale Grande
 
-| Challenge | Difficulty | Labels |
+| Challenge | Difficulty | Category |
 |-----------|------------|--------|
 | [Yellow Door](<Level 8 - Finale Grande/Yellow Door/README.md>) | <span style="background-color: #e68f8f; padding: 5px; color: black;">☢️ hard</span> | 👁️ osint |
 | [Hacky Easter Letter](<Level 8 - Finale Grande/Hacky Easter Letters/README.md>) | <span style="background-color: #e68f8f; padding: 5px; color: black;">☢️ hard</span> | ⚄ misc |
@@ -102,6 +102,8 @@ Acknowledgements for assistance with hints and navigating through rabbit holes: 
 ### Level 9
 
 ![Level 9](<./Level 9 - The End/level9.png>)
+
+![test](test/level9.png)
 
 ## Hacky Easter 2024 Ph1n1sh3r Badge
 ![Phinisher Badge](PhinisherBadge.png)
