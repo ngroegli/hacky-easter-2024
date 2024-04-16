@@ -75,7 +75,7 @@ Acknowledgements for assistance with hints and navigating through rabbit holes: 
 | [Unknown Identity](<Level 6 - Hexagon/Unknown Identity/README.md>) | <span style="background-color: #e6cb39; padding: 5px; color: black;">medium</span> | cloud |
 | [Hatch Latch](<Level 6 - Hexagon/Hatch Latch/README.md>) | <span style="background-color: #e6cb39; padding: 5px; color: black;">medium</span> | reverseing, crypto |
 | [Zone Lockdown](<Level 6 - Hexagon/Zone Lockdown/README.md>) | <span style="background-color: #e6cb39; padding: 5px; color: black;">medium</span> | pwn |
-| [Stegano](<Level 6 - Hexagon/Stenago/README.md>) | <span style="background-color: #e6cb39; padding: 5px; color: black;">medium</span> | forensics |
+| [Stenago](<Level 6 - Hexagon/Stenago/README.md>) | <span style="background-color: #e6cb39; padding: 5px; color: black;">medium</span> | forensics |
 | [Lost in Primes](<Level 6 - Hexagon/Lost in Primes/README.md>) | <span style="background-color: #e6cb39; padding: 5px; color: black;">medium</span> | misc |
 
 ### Level 7: Seven Of Nine
