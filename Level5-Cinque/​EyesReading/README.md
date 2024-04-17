@@ -1,7 +1,7 @@
 # Challenge "Eyes Reading"
 <img src="banner.jpg" width="400px" alt="Banner Image" /><br/>
 
-**Difficulty:** <span style="background-color: #e6cb39; padding: 5px; color: black;">⚖️ medium</span> | **Category:** <span style="background-color: #ced4da; padding: 5px; color: black;">< > reversing</span>
+**Difficulty:** <span style="background-color: #e6cb39; padding: 5px; color: black;">⚖️ medium</span> | **Category:** <span style="background-color: #ced4da; padding: 5px; color: black;">⚄ misc</span>
 
 The Easter Bunny has hidden a pair of eyes from the child named Noita. Maybe you can find out what he wanted to tell him with these messages?
 
