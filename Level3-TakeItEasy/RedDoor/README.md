@@ -13,7 +13,7 @@ Download the image file below and ignore the title image.
 - name of the city this thing is standing on, wrapped in he2024{ }
 - example: he2024{Atlantis}
 
-![reddoor.jpg](reddoor.jpg)
+<img src="reddoor.jpg" width="400px" alt="reddoor.jpg" /><br/>
 
 # Solution
 I used exiftool on Linux to get coordinates of the image:

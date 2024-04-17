@@ -13,7 +13,7 @@ Find the name of the town!
 - no spaces
 - example: Los Angeles -> he2024{losangeles}
 
-![streetart.jpg](streetart.jpg)
+<img src="streetart.jpg" width="400px" alt="streetart.jpg" /><br/>
 
 # Solution
 Use Google Lens against image reveals a site https://dominikgehl.com, where images of this buildings are presented. The image is from Exomusée (https://exomusee.ch) and called "Les esclaves du temps" by "M-City".

@@ -16,7 +16,7 @@ When opening http://ch.hackyeaster.com:2401/login, we can enter the credentials 
 
 Then we can use the link "Try another way" (http://ch.hackyeaster.com:2401/questions) to skip 2FA and using the "Security Question" form.
 
-By deleting the two inputs as described on the official vulnerability, we can access the flag:
+By deleting the two inputs as described on the official vulnerability blog post, we can access the flag:
 
 ![Form manipulation](deleted_form_inputs.png)
 

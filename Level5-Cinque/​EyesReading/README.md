@@ -42,7 +42,7 @@ With the help of ChatGPT, I was able to generate a python code to split each sym
 
 [image_splitter.py](image_splitter.py)
 
-After that, each output was stored in the folder "each_eye" with a reprensation of each type. Again with ChatGPT, I could generate another script which matches all symbols with their samples and outputs the correct view direction as string. This was done with:
+After that, each output was stored in the folder "each_eye" with a reprensation of each type. Again using ChatGPT, I was able to generate another script that matched all the symbols to their patterns and output the correct viewing direction as a string. This was done with:
 
 [symbol_matcher.py](symbol_matcher.py)
 

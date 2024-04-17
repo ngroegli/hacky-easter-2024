@@ -7,7 +7,7 @@ Ghostbusters go Egg Hunting!
 
 Open their webpage and find the egg.png.
 
-[http://ch.hackyeaster.com:2407/](Egg Busters web site)
+[Egg Busters web site](http://ch.hackyeaster.com:2407/)
 
 Note: The service is restarted every hour at x:00.
 
@@ -23,7 +23,7 @@ Here are two urls of the banner pictures:
     http://ch.hackyeaster.com:2407/content/images/2024/03/hotel_ruine.webp
 
 
-Since it is clear, that the flag is named egg.png, we just have to figure out the correct url. We do not know on which month the egg.png was published, but we can assume it was in a blog post. And we can use ".." to do a path traversal method.
+Since it is clear, that the flag is named egg.png, we just have to figure out the correct URL. We do not know on which month the egg.png was published, but we can assume it was in a blog post. And we can use ".." to do a path traversal method.
 
 And by using this one, we actually receive the flag egg.png: http://ch.hackyeaster.com:2407/content/images/../../egg.png
 
