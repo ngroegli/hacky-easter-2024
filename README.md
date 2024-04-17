@@ -64,7 +64,7 @@ Acknowledgements for assistance with hints and navigating through rabbit holes: 
 | Challenge | Difficulty | Category |
 |-----------|------------|--------|
 | [Tricky Chicken](<Level5-Cinque/TrickyChicken/README.md>) | <span style="background-color: #e6cb39; padding: 5px; color: black;">⚖️ medium</span> | <span style="background-color: #ced4da; padding: 5px; color: black;">🌐 web</span> |
-| [Eyes Reading](<Level5-Cinque/​EyesReading/README.md>) | <span style="background-color: #e6cb39; padding: 5px; color: black;">⚖️ medium</span> | <span style="background-color: #ced4da; padding: 5px; color: black;">⚄ misc</span> |
+| [Eyes Reading](<Level5-Cinque/EyesReading/README.md>) | <span style="background-color: #e6cb39; padding: 5px; color: black;">⚖️ medium</span> | <span style="background-color: #ced4da; padding: 5px; color: black;">⚄ misc</span> |
 | [Planet Index](<Level5-Cinque/PlanetIndex/README.md>) | <span style="background-color: #e6cb39; padding: 5px; color: black;">⚖️ medium</span> | <span style="background-color: #ced4da; padding: 5px; color: black;">💀 pwn</span> |
 | [gge_deserver](<Level5-Cinque/gge_desrever/README.md>) | <span style="background-color: #e6cb39; padding: 5px; color: black;">⚖️ medium</span> | <span style="background-color: #ced4da; padding: 5px; color: black;">⚄ misc</span> ; <span style="background-color: #ced4da; padding: 5px; color: black;">< > reversing</span> |
 | [Mr. Slapdash](<Level5-Cinque/MrSlapdash/README.md>) | <span style="background-color: #8fe699; padding: 5px; color: black;">🎮 easy</span> | <span style="background-color: #ced4da; padding: 5px; color: black;">🔐 crypto</span> |
