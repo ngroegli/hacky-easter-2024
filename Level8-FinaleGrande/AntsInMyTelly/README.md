@@ -1,5 +1,7 @@
 # Challenge "Ants in my Telly"
-<img src="banner.jpg" width="400px" alt="Banner Image" />
+<img src="banner.jpg" width="400px" alt="Banner Image" /><br/>
+
+**Difficulty:** <span style="background-color: #e68f8f; padding: 5px; color: black;">☢️ hard</span> | **Category:** <span style="background-color: #ced4da; padding: 5px; color: black;">🔍 forensics</span>
 
 Tired of fuzzy, soft, nice things, the bunnies are watching a nature video about spiders and ants.
 

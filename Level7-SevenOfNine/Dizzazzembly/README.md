@@ -1,5 +1,7 @@
 # Challenge "Dizzazzembly"
-<img src="banner.jpg" width="400px" alt="Banner Image" />
+<img src="banner.jpg" width="400px" alt="Banner Image" /><br/>
+
+**Difficulty:** <span style="background-color: #e68f8f; padding: 5px; color: black;">☢️ hard</span> | **Category:** <span style="background-color: #ced4da; padding: 5px; color: black;">< > reversing</span>
 
 Have a look at this dizzazzembly.
 
