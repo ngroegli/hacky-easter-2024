@@ -104,6 +104,6 @@ Acknowledgements for assistance with hints and navigating through rabbit holes: 
 ![Level 9](Level9-TheEnd/level9.png)
 
 ## Hacky Easter 2024 Ph1n1sh3r Badge
-![Phinisher Badge](PhinisherBadge.png)
+![Phinisher Badge](Level9-TheEnd/PhinisherBadge.png)
 
 https://eu.badgr.com/public/assertions/iEow2z7VRL2gSW0mlcMnmg
