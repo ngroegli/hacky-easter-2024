@@ -12,5 +12,5 @@ Here is your first flag!
 # Solution
 I copy/pasted the text into an editor and the flag was turned correctly.
 
-## The flag
+## The Flag 🚩
     he2024{s4nity_ch3ck_d0n3}

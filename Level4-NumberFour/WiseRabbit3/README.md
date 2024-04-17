@@ -87,5 +87,5 @@ http://ch.hackyeaster.com:2405/?code=13037+
 ![Flag](flag.png)
 
 
-## The flag
+## The Flag 🚩
     he2024{p33_4g3_p33_c0d3_cr4ck3d!}

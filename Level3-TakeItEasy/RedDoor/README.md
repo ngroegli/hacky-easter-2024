@@ -57,5 +57,5 @@ After entering the coordinates on Google Maps, I received the city "Nordenham" i
 
 That is the solution to the flag.
 
-## The flag
+## The Flag 🚩
     he2024{Nordenham}

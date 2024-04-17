@@ -19,5 +19,5 @@ I reversed the recipe with [CyberChef](https://gchq.github.io/CyberChef/#recipe=
 <img src="chef_solution.png" width="800px" alt="CyberChef Solution" /><br/>
 
 
-## The flag
+## The Flag 🚩
     he2024{Cyb3rch3f_cooks_the_b3st_d1nners_from_simple_1ngr1d13nts}

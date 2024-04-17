@@ -315,5 +315,5 @@ The full code can be found here: [solver.py](solver.py)
 
 Note: Most likely there is a way without bruteforce, but I could not find it.
 
-## The flag
+## The Flag 🚩
     he2024{1_w0nd3r_why_th3r3_just_had_to_b3_a_sp1der_t00?}

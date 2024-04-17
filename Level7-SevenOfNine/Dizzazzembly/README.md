@@ -218,5 +218,5 @@ Then I wrapped the code in a function, which checks each next character if it ma
     if __name__ == "__main__":
         main()
 
-## The flag
+## The Flag 🚩
     he2024{d1zz_izz_pyth0n_d1zz4zz3mbl1n}

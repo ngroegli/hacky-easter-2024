@@ -10,5 +10,5 @@ Using Google for "Naknak Duck" I received an URL to https://www.dcode.fr/nak-nak
 
 ![DCode Solution](dcode.png)
 
-## The flag
+## The Flag 🚩
     he2024{br34d_15_b4d_for_duck5}

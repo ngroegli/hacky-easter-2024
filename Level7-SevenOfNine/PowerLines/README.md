@@ -17,5 +17,5 @@ After replacing 🔺 with 1 and 🔻 with 0, I could decipher it easly:
 
 ![Flag](flag.png)
 
-## The flag
+## The Flag 🚩
     he2024{its_not_only_a_bit_its_a_decabit}

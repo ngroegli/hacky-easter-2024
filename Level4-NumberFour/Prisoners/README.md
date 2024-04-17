@@ -23,5 +23,5 @@ With "[∅]+2" the flag is revealed:
 ![Flag](flag.png)
 
 
-## The flag
+## The Flag 🚩
     he2024{wednesday}

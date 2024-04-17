@@ -30,5 +30,5 @@ And by using this one, we actually receive the flag egg.png: http://ch.hackyeast
 ![egg.png](egg.png)
 
 
-## The flag
+## The Flag 🚩
     he2024{p4th_tr4v3rs4ls_st1ll_h4pp3ns}

@@ -24,5 +24,5 @@ http://ch.hackyeaster.com:2401/bucksbuddy:
 
 ![Flag](flag.png)
 
-## The flag
+## The Flag 🚩
     he2024{Not_that_easy_anymore, sigh!}

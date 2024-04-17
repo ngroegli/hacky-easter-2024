@@ -76,5 +76,5 @@ Now we can access the site http://ch.hackyeaster.com:2402/05693f291feed988b1f48a
 
 ![Flag](flag.png)
 
-## The flag
+## The Flag 🚩
     he2024{such_4_tr1cky_ch1ck3N!}

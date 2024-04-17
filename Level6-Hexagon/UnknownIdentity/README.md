@@ -37,5 +37,5 @@ After checking the username with CyberChef, we receive the flag after decoding i
 
 ![CyberChef](cyberchef.png)
 
-## The flag
+## The Flag 🚩
     he2024{14m_pr1nc1p4l_unc0v3r3d!}

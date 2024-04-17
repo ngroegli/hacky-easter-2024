@@ -83,5 +83,5 @@ Full code: [solver.py](solver.py)
     if __name__ == '__main__':
         main()
 
-## The flag
+## The Flag 🚩
     he2024{h4tch_4cc355_gr4nt3d}

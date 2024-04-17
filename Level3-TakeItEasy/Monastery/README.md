@@ -71,5 +71,5 @@ CyberChef then proposed "From Hex" to receive the flag:
 
 ![CyberChef From HEX](cyber_chef_from_hex.png)
 
-## The flag
+## The Flag 🚩
     he2024{monk_numberalz}

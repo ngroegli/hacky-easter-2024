@@ -351,5 +351,5 @@ Everything combined can be found within:
 
 [Hacky Easter Letter Solution](<working/Hacky Easter 2024.html>)
 
-## The flag
+## The Flag 🚩
     he2024{H@PpY_E4$T3r_fr0m_daubsi!}

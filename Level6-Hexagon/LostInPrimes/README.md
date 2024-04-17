@@ -83,5 +83,5 @@ When executing the flag_generator, I have set the console color to black/white a
 
 ![generated_flag.png](generated_flag.png)
 
-## The flag
+## The Flag 🚩
     HE24{fun_with_pr1mes}

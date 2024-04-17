@@ -44,5 +44,5 @@ After that, the flag is revealed:
 
 The string "}):won_rof_gnisrever_hguone{4202eh" has just to be reversed for entering the flag.
 
-## The flag
+## The Flag 🚩
     he2024{enough_reversing_for_now:)}

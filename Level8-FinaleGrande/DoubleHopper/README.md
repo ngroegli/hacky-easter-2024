@@ -38,5 +38,5 @@ With this script and some adjustments, we can then download the flag.png https:/
 
 ![flag.png](flag.png)
 
-## The flag
+## The Flag 🚩
     he2024{Smu66l1m6_4ll_th3_t1m3!}

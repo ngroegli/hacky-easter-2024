@@ -111,5 +111,5 @@ With that, it is quite easy to reverse the whole algorithm. For this, I have the
         main()
 
 
-## The flag
+## The Flag 🚩
     he2024{n_r3ec0v3r3d!}

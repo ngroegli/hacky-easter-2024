@@ -40,5 +40,5 @@ I tried this in several ways and approaches. But one try without comment (but wi
 
 What I can say is, that "#" is not an allowed punycode character.
 
-## The flag
+## The Flag 🚩
     he2024{puny_code_fun}

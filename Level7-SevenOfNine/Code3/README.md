@@ -30,5 +30,5 @@ Then we can use the coordinates like [row].[character]. Example 5.3 = Row 5, Cha
 
 By using that decoding method, we receive "TRIANGULARIZEDCODE".
 
-## The flag
+## The Flag 🚩
     he2024{TRIANGULARIZEDCODE}

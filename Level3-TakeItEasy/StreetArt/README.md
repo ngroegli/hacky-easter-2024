@@ -21,5 +21,5 @@ Use Google Lens against image reveals a site https://dominikgehl.com, where imag
 It was created in "Le Locle" (Source https://exomusee.ch/m-city/).
 
 
-## The flag
+## The Flag 🚩
     he2024{lelocle}
