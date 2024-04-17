@@ -36,7 +36,7 @@ Acknowledgements for assistance with hints and navigating through rabbit holes: 
 | [Egg Design](<Level2-NoobsParadise/EggDesign/README.md>) | <span style="background-color: #69bbe9; padding: 5px; color: black;">🤓 noob</span> | <span style="background-color: #ced4da; padding: 5px; color: black;">🌐 web</span> |
 | [PEM Flag](<Level2-NoobsParadise/PEMFlag/README.md>) | <span style="background-color: #69bbe9; padding: 5px; color: black;">🤓 noob</span> | <span style="background-color: #ced4da; padding: 5px; color: black;">⚄ misc</span> |
 | [The Duck](<Level2-NoobsParadise/TheDuck/README.md>) | <span style="background-color: #69bbe9; padding: 5px; color: black;">🤓 noob</span> | <span style="background-color: #ced4da; padding: 5px; color: black;">🔐 crypto</span> |
-| [Chef's Kiss](<Level2-NoobsParadise/ChefsKiss👌/README.md>) | <span style="background-color: #69bbe9; padding: 5px; color: black;">🤓 noob</span> | <span style="background-color: #ced4da; padding: 5px; color: black;">⚄ misc</span> |
+| [Chef's Kiss](<Level2-NoobsParadise/ChefsKiss/README.md>) | <span style="background-color: #69bbe9; padding: 5px; color: black;">🤓 noob</span> | <span style="background-color: #ced4da; padding: 5px; color: black;">⚄ misc</span> |
 
 ### Level 3: Take It Easy!
 
@@ -63,11 +63,11 @@ Acknowledgements for assistance with hints and navigating through rabbit holes: 
 
 | Challenge | Difficulty | Category |
 |-----------|------------|--------|
-| [Tricky Chicken](<Level5-Cinque✋/TrickyChicken/README.md>) | <span style="background-color: #e6cb39; padding: 5px; color: black;">⚖️ medium</span> | <span style="background-color: #ced4da; padding: 5px; color: black;">🌐 web</span> |
-| [Eyes Reading](<Level5-Cinque✋/​EyesReading/README.md>) | <span style="background-color: #e6cb39; padding: 5px; color: black;">⚖️ medium</span> | <span style="background-color: #ced4da; padding: 5px; color: black;">⚄ misc</span> |
-| [Planet Index](<Level5-Cinque✋/PlanetIndex/README.md>) | <span style="background-color: #e6cb39; padding: 5px; color: black;">⚖️ medium</span> | <span style="background-color: #ced4da; padding: 5px; color: black;">💀 pwn</span> |
-| [gge_deserver](<Level5-Cinque✋/gge_desrever/README.md>) | <span style="background-color: #e6cb39; padding: 5px; color: black;">⚖️ medium</span> | <span style="background-color: #ced4da; padding: 5px; color: black;">⚄ misc</span> ; <span style="background-color: #ced4da; padding: 5px; color: black;">< > reversing</span> |
-| [Mr. Slapdash](<Level5-Cinque✋/MrSlapdash/README.md>) | <span style="background-color: #8fe699; padding: 5px; color: black;">🎮 easy</span> | <span style="background-color: #ced4da; padding: 5px; color: black;">🔐 crypto</span> |
+| [Tricky Chicken](<Level5-Cinque/TrickyChicken/README.md>) | <span style="background-color: #e6cb39; padding: 5px; color: black;">⚖️ medium</span> | <span style="background-color: #ced4da; padding: 5px; color: black;">🌐 web</span> |
+| [Eyes Reading](<Level5-Cinque/​EyesReading/README.md>) | <span style="background-color: #e6cb39; padding: 5px; color: black;">⚖️ medium</span> | <span style="background-color: #ced4da; padding: 5px; color: black;">⚄ misc</span> |
+| [Planet Index](<Level5-Cinque/PlanetIndex/README.md>) | <span style="background-color: #e6cb39; padding: 5px; color: black;">⚖️ medium</span> | <span style="background-color: #ced4da; padding: 5px; color: black;">💀 pwn</span> |
+| [gge_deserver](<Level5-Cinque/gge_desrever/README.md>) | <span style="background-color: #e6cb39; padding: 5px; color: black;">⚖️ medium</span> | <span style="background-color: #ced4da; padding: 5px; color: black;">⚄ misc</span> ; <span style="background-color: #ced4da; padding: 5px; color: black;">< > reversing</span> |
+| [Mr. Slapdash](<Level5-Cinque/MrSlapdash/README.md>) | <span style="background-color: #8fe699; padding: 5px; color: black;">🎮 easy</span> | <span style="background-color: #ced4da; padding: 5px; color: black;">🔐 crypto</span> |
 
 
 ### Level 6: Hexagon
