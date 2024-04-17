@@ -12,7 +12,7 @@ I recognized that each layer is an URL to an image. The red one was an URL to ht
 
 ![fake-flag](egg4.png)
 
-By adjusting the URL number from 4 to 1 we receive to flag-egg with the QR code (this is the egg on the bottom):
+By adjusting the URL number from 4 to 1, I received the flag-egg with the QR code (this is the egg on the bottom):
 https://www.hackyeaster.com/img/eggdesign_layer1.png
 
 ![flag](egg1.png)

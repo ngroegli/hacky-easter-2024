@@ -8,7 +8,7 @@
 # Solution
 Using Google for "Naknak Duck" I received an URL to https://www.dcode.fr/nak-nak-duckspeak and figured out, that there is an cipher for "Nak Nak (Duckspeak)". Entering the cipher there reveals the flag:
 
-![DCode Solution](DCode.png)
+![DCode Solution](dcode.png)
 
 ## The flag
     he2024{br34d_15_b4d_for_duck5}
