@@ -11,7 +11,7 @@ I got this string, can you decode it?
 # Solution
 I used [CyberChef](https://gchq.github.io/CyberChef/ "CyberChef on GitHub") and let auto detection solve the challenge (magic wand):
 
-![CyberChef auto detection](CyberChef.png)
+![CyberChef auto detection](cyberchef.png)
 
 By doing so, the flag was revealed and we can see, that it was encoded Base85.
 
