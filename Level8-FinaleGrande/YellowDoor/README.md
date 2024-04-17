@@ -14,7 +14,8 @@ Download the image file below and ignore the title image.
 - first word only, without suffixes or numbers
 - example: Galapagos Islands would become he2024{Galapagos}
 
-![yellowdoor.jpg](yellowdoor.jpg)
+<img src="yellowdoor.jpg" width="400px" alt="yellowdoor.jpg" /><br/>
+
 
 # Solution
 

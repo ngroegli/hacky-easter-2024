@@ -22,7 +22,7 @@ Hint: It's not 𝛑 this time.
 
 
 # Solution
-Based on the hints from the Discord chat, we have to download irrational numbers to a precission of billions. I found this cool archive which provides exactly such entries: https://archive.org/download/Math_Constants
+Based on the hints from the Discord chat, we have to download irrational numbers to a precission of billions. I found this cool archive, which provides exactly such entries: https://archive.org/download/Math_Constants
 
 ![Math Constants](internet_archive_math_constants.png)
 

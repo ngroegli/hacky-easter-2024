@@ -18,7 +18,7 @@ The only thing we know is that it has not yet been proven that it is really prim
 Hint: Find a way to list / download numbers from the server, and search by what you can read and see here. Someone leaked parts of the number, check the download.
 
 # Solution
-From the leaked_part.png we can see that all visible numbers are 0 or 1. Furthermore, on Factordb we can see that the line length is exactly 120 characters long. With the search feature, we can generate a download URL to get primes from the DB:
+From the leaked_part.png we can see that all visible numbers are 0 or 1. With the search feature, we can generate a download URL to get primes from the DB:
 
     mindig = 27000
     perpage = integer
@@ -26,7 +26,7 @@ From the leaked_part.png we can see that all visible numbers are 0 or 1. Further
     download = 1 for true
     http://factordb.com/listtype.php?t=1&mindig={mindig}&perpage={perpage}&start={start}&download={download}
 
-Because of the above facts, we can generate a script to consume all primes with the above URL. But we have to make sure that we consume them in small steps and that we filter for values that mostly start with 0 and 1. I assume that we only have 0 and 1, but I left some wiggle-space in my filter since we do not know for sure that there are only 0 and 1 in the number. Primes that match the criteria are stored in an output.txt:
+Based on the above, we can generate a script to consume all the primes with the above URL. But we have to make sure that we consume them in small steps and that we filter for values that mostly start with 0 and 1. I assume that we only have 0 and 1, but I left some wiggle room in my filter since we do not know for sure that there are only 0 and 1 in the number. Primes that match the criteria are stored in an output.txt:
 
 [consumer.py](consumer.py)
 

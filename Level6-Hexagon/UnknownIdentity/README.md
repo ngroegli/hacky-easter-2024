@@ -33,7 +33,7 @@ After saving the role, we can check the trust relationship to receive the ARN.
 
 ![ARN translation](arn.png)
 
-After checking the the username with CyberChef, we receive the flag after decoding it with Base64:
+After checking the username with CyberChef, we receive the flag after decoding it with Base64:
 
 ![CyberChef](cyberchef.png)
 
