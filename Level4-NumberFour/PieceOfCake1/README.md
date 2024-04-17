@@ -1,5 +1,7 @@
 # Challenge "Piece of Cake 1"
-<img src="banner.jpg" width="400px" alt="Banner Image" />
+<img src="banner.jpg" width="400px" alt="Banner Image" /><br/>
+
+**Difficulty:** <span style="background-color: #e6cb39; padding: 5px; color: black;">⚖️ medium</span> | **Category:** <span style="background-color: #ced4da; padding: 5px; color: black;">🔐 crypto</span>
 
 Bunny Bob grinned from ear to ear, as he told the story of his new idea. "ROT. It's just ROT. Nothing more. But get this: Each letter is rotted individually, and I am using different numbers for each letter!".
 

@@ -1,5 +1,7 @@
 # Challenge "Monastery"
-<img src="banner.png" width="400px" alt="Banner Image" />
+<img src="banner.png" width="400px" alt="Banner Image" /><br/>
+
+**Difficulty:** <span style="background-color: #8fe699; padding: 5px; color: black;">🎮 easy</span> | **Category:** <span style="background-color: #ced4da; padding: 5px; color: black;">🔐 crypto</span>
 
 You found some strange symbol in an old monastery. Can you make any sense out of it?
 
@@ -8,7 +10,6 @@ You found some strange symbol in an old monastery. Can you make any sense out of
 Hint: After decoding the symbols, two more conversions are needed.
 
 Hint update: After decoding the symbols, combine them to one single number, and do two more conversions.
-
 
 # Solution
 By doing a Google picture reverse search it is getting clear, that we are talking about a "Cistercian numerals" cipher.

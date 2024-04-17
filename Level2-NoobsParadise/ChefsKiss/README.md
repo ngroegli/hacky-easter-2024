@@ -1,5 +1,7 @@
 # Challenge "Chef's Kiss 👌"
-<img src="banner.png" width="400px" alt="Banner Image" />
+<img src="banner.png" width="400px" alt="Banner Image" /><br/>
+
+**Difficulty:** <span style="background-color: #69bbe9; padding: 5px; color: black;">🤓 noob</span> | **Category:** <span style="background-color: #ced4da; padding: 5px; color: black;">⚄ misc</span>
 
 One of the bunnies found a remarkable text that withstood all his decoding attempts.
 
@@ -10,8 +12,6 @@ Luckily, it was written on the back of a recipe, which seems to hold the answer 
 Download the recipe below.
 
 ![Receipe](chefs_recipe.jpg)
-
-**Difficulty:** <span style="background-color: #69bbe9; padding: 5px; color: black;">🤓 noob</span> | **Category:** <span style="background-color: #ced4da; padding: 5px; color: black;">⚄ misc</span>
 
 # Solution
 Reverse the recipe with [CyberChef](https://gchq.github.io/CyberChef/#recipe=From_Base64('A-Za-z0-9%2B/%3D',true,false)ROT13(true,true,false,13)From_Base32('A-Z2-7%3D',true)Vigen%C3%A8re_Decode('bunnymaster')From_Base64('A-Za-z0-9%2B/%3D',true,false)ROT8000()XOR(%7B'option':'Hex','string':'1337'%7D,'Standard',false)&input=VkVnelNFeEtWMGxVTlZoVU5rRlhTMVpUUlVoU1dETkxRazh5UzBSSVdWWmFUVXRJV2paSFIwSkVUVXBDTlROSFdGTklWRnBIVjBoYVNESkhRa2d5UTFSSU0wbEdRVmRKVkRWQlZWUktSa1JEVTBsTFNEUXpSVU5QUmxWRU1sbERRVFUwUzFJelVWUkNVMFpMVGpKUlYwSk5OVlJRTkVkR1FrMHpWRmcxTTBWQ1R6TlVXalJIUzFaWFJVcEtNbEJWUTA5RlZGWllNMVJDVnpSTFVrd3pXRUZOUkVsQ05FZFlXVlpOU2tSTlIwTldWelZWVkRWUVQwSlhTVlZPU1ZoSVZFZ3pTVVJGVjBsVU5WZEtSa0ZYUzFsU1MwZFlRVEl5V0ZveVIwSktVVVZVU0ROSVVESk5TVlExV0ZCS1FWZExWa2xPUjFoQk1sbFpUakpIUWtwSFFsUklNMGxFU1UxSlZEVk9TRkJCVjB0WlQwOVJXRUV5UjBGV01rZENTbGxhVkVnelNFcE1SVWxVTlZKUU5rRlhTMVpUU1VkWVFUSkVRazR5UjBKSU0xZFVTRE5KUmtKWFNWUTFRVk5VUVZkTFdFVk5SMWhCTWs5Q1RqSkhRa2hSUkZkTlZVdENORWRhUVVWSFZWSTFNbEJhUVVsVlVEVXpURnBYUlZWRVExYzE&oenc=65001&oeol=NEL)

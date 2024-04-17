@@ -53,7 +53,7 @@ Acknowledgements for assistance with hints and navigating through rabbit holes: 
 | Challenge | Difficulty | Category |
 |-----------|------------|--------|
 | [Piece of Cake 1](<Level4-NumberFour/PieceOfCake1/README.md>) | <span style="background-color: #e6cb39; padding: 5px; color: black;">⚖️ medium</span> | <span style="background-color: #ced4da; padding: 5px; color: black;">⚄ misc</span> ; <span style="background-color: #ced4da; padding: 5px; color: black;">🔐 crypto</span> |
-| [Space 64](<Level4-NumberFour/Space64/README.md>) | <span style="background-color: #e6cb39; padding: 5px; color: black;">⚖️ medium</span> | <span style="background-color: #ced4da; padding: 5px; color: black;">🔍 forensic</span> |
+| [Space 64](<Level4-NumberFour/Space64/README.md>) | <span style="background-color: #e6cb39; padding: 5px; color: black;">⚖️ medium</span> | <span style="background-color: #ced4da; padding: 5px; color: black;">🔍 forensics</span> |
 | [Wise Rabbit 3](<Level4-NumberFour/WiseRabbit3/README.md>) | <span style="background-color: #8fe699; padding: 5px; color: black;">🎮 easy</span> | <span style="background-color: #ced4da; padding: 5px; color: black;">🌐 web</span> |
 | [Prisoner](<Level4-NumberFour/Prisoners/README.md>) | <span style="background-color: #8fe699; padding: 5px; color: black;">🎮 easy</span> | <span style="background-color: #ced4da; padding: 5px; color: black;">🔐 crypto</span> |
 | [Egg Buster](<Level4-NumberFour/EggBusters/README.md>) | <span style="background-color: #8fe699; padding: 5px; color: black;">🎮 easy</span> | <span style="background-color: #ced4da; padding: 5px; color: black;">🌐 web</span> |

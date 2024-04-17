@@ -1,5 +1,7 @@
 # Challenge "Primetime"
-<img src="banner.jpg" width="400px" alt="Banner Image" />
+<img src="banner.jpg" width="400px" alt="Banner Image" /><br/>
+
+**Difficulty:** <span style="background-color: #8fe699; padding: 5px; color: black;">🎮 easy</span> | **Category:** <span style="background-color: #ced4da; padding: 5px; color: black;">⚄ misc</span>
 
 Time for a TV evening!
 
