@@ -29,6 +29,8 @@ And by using this one, we actually receive the flag egg.png: http://ch.hackyeast
 
 ![egg.png](egg.png)
 
+Sitenote: In writing this, I realised that the "../../" in the path actually goes up two folders in the file structure. So egg.png is actually in the root directory of the website: http://ch.hackyeaster.com:2407/egg.png
+
 
 ## The Flag 🚩
     he2024{p4th_tr4v3rs4ls_st1ll_h4pp3ns}

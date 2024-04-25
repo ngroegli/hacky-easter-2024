@@ -72,7 +72,7 @@ To implement the trigram cipher plus the transformations base5 to int, for each 
 
 [solver.py](solver.py)
 
-The output was made visible to always be capable in crosschecking the result with the originl image:
+The output was made visible to always be capable in crosschecking the result with the original image:
 
     {1: ['trc', 'cdt', 'dcd', 'rlt', 'dtr', 'rdc', 'dcd', 'cld', 'rcd', 'dct', 'rdc', 'rcr', 'rld', 'cdt', 'dcd', 'crr', 'ccc', 'rtr', 'dcl', 'rcd', 'ccc', 'dcr', 'rdc', 'dcd', 'rdc', 'rlt'], 2: ['rdl', 'rdd', 'ccc', 'rcr', 'cdt', 'ccc', 'dtr', 'rdl', 'rdc', 'rdd', 'ccc', 'rdc', 'dcd', 'rdd', 'ccc', 'dtc', 'rdc', 'dtr', 'clt', 'rdl', 'ccc', 'cld', 'rlr', 'rdl', 'ccc', 'rdl'], 3: ['rtr', 'rdl', 'ccl', 'cct', 'ccc', 'tdc', 'rdl', 'dtr', 'rdl', 'ccc', 'rld', 'clt', 'ccc', 'rtr', 'cdt', 'rcd', 'dtr', 'ccc', 'rlc', 'dct', 'rdc', 'rlt', 'tct', 'ccc', 'rlr', 'rdl'], 4: ['cdd', 'cdt', 'cdd', 'clc', 'rtl', 'rdl', 'rtr', 'rdl', 'clt', 'rrd', 'ccl', 'cld', 'rld', 'dct', 'dct', 'rrd', 'dcc', 'rdl', 'rdl', 'dtc', 'rrd', 'rdc', 'rrd', 'clt', 'rdl', 'rdr'], 5: ['dtr', 'rdl', 'rcr', 'rrt', 'crl', 'ccc', 'rcc', 'rdl', 'dtc', 'dct', 'rdc', 'rdr', 'rdl', 'ccc', 'rdt', 'dtr', 'rdc', 'rdr', 'dcc', 'rdl', 'cld', 'ccl', 'ccc', 'rdt', 'rdl', 'rlc'], 6: ['cdt', 'dtr', 'rdl', 'ccc', 'rdr', 'rlr', 'rdl', 'rdr', 'dcc', 'rld', 'dcd', 'rlt', 'ccc', 'rld', 'dcd', 'cct']}
 

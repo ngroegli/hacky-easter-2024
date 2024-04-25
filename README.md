@@ -11,7 +11,7 @@ So, join me as I delve into the depths of Hacky Easter 2024, exploring, experime
 CTF URL: https://www.hackyeaster.com/ 
 
 ## Credits
-Acknowledgements for assistance with hints and navigating through rabbit holes: AstroViking, mdummyh, Ruthless, spire, radio, Gempana, xdjibi, c_zer0, Nemah
+Acknowledgements for assistance with hints and navigating through rabbit holes: AstroViking, mdummyh, Ruthless, spire, radio, Gempana, xdjibi, c_zer0, Nemah, Nevah5
 
 ## Challenges
 

@@ -18,6 +18,8 @@ By doing a Google picture reverse search it is getting clear, that we are talkin
 - Guide about cipher: https://historysurvivalguide.com/cistercian-numerals/
 - Tool for decoding the cipher. With that, we receive the following numbers (last column for DCode reproduction): https://www.dcode.fr/cistercian-numbers
 
+<details>
+<summary>Click to expand dcode mapping</summary>
 
     1 letter: 3         char(3)
 
@@ -47,8 +49,10 @@ By doing a Google picture reverse search it is getting clear, that we are talkin
 
     15 letter: 9901     char(39)char(29)char(1)
 
+</details><br/>
 
-3 9058 9177 8201 6164 2533 7143 5656 7784 3452 4910 7101 2237 9901
+
+Decoding the symbols does produce the following numbers: 3 9058 9177 8201 6164 2533 7143 5656 7784 3452 4910 7101 2237 9901
 
 Combining those numbers gets the following value:
 39058917782016164253371435656778434524910710122379901
@@ -70,6 +74,14 @@ With "Hexadecimal (Base 16)" I could get an output, which was detected by CyberC
 CyberChef then proposed "From Hex" to receive the flag:
 
 ![CyberChef From HEX](cyber_chef_from_hex.png)
+
+## Skipping the two transformations with one step
+
+After solving all challenges, Nevah5 showed me another site which is much easier to getting the flag from the numbers: https://scwf.dima.ninja
+
+When entering the numbers there, the flag is just revealed very easy:
+
+![scwf.dima.ninja.png](scwf.dima.ninja.png)
 
 ## The Flag 🚩
     he2024{monk_numberalz}
